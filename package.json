@@ -1,0 +1,21 @@
+{
+  "name": "abouthalf.com",
+  "version": "1.0.0",
+  "description": "Net art at abouthalf.com",
+  "main": "index.js",
+  "repository": "https://github.com/abouthalf/abouthalf.com.git",
+  "author": "Michael Barrett <mb@abouthalf.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-images": "^1.0.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "scripts": {
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src",
+    "export": "next export src"
+  }
+}
