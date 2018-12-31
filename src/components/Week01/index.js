@@ -21,7 +21,7 @@ export default class Art extends Component {
 
     handleDeviceMove(e) {
         let { gamma } = e;
-        let x = gamma ? this.state.w * (gamma / 100) : (w/2);
+        let x = gamma ? this.state.w * (gamma / 100) : (this.state.w/2);
         this.setState({x});
     }
 
