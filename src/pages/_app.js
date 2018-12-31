@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from "next/head";
+import Link from "next/link";
 import App, { Container } from "next/app";
 
 class Layout extends React.Component {
@@ -24,11 +25,34 @@ class Layout extends React.Component {
                 img {
                     display: block;
                 }
+
+                @media screen and (min-width: 768px) {
+                    .article {
+                        padding: 2rem 25%;
+                    }
+                }
+
+                .article {
+                    background: #eee;
+                    padding: 2rem;
+                    margin: 7rem 0 0 0;
+
+                    color: #222;
+                }
+
+                .article h1 {
+                    font-size: 3rem;
+                    line-height: 1;
+                    margin-bottom: 1.5rem;
+                }
                 
             `}</style>
             <style jsx>{`
                 .site-header {
                     position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 900;
                 }
                 .logo {
                     position: relative;
@@ -41,6 +65,17 @@ class Layout extends React.Component {
                     width: 0px;
                     overflow: hidden;
                 }
+
+                .site-footer {
+                    padding: 1rem;
+                }
+                .site-footer a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: inline-block;
+                    line-height: 2rem;
+                    margin: 0 1rem 0 0;
+                }
                 `}</style>
             <header className="site-header">
                 <h1 className="logo">
@@ -51,6 +86,12 @@ class Layout extends React.Component {
                 </h1>
             </header>
             {this.props.children}
+            <footer className="site-footer">
+                <nav>
+                    <a href="/about">About</a>
+                    <a href="http://abouthalf.micro.blog">Blog</a>
+                </nav>
+            </footer>
         </main>
     }
 }

@@ -1,4 +1,4 @@
-import background from "./background-texture.jpg";
+import background from "./background-texture.gif";
 
 export default () => {
     return <div className="background">
