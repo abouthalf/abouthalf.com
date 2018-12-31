@@ -16,15 +16,14 @@ export default class Art extends Component {
         if (window && window.innerWidth) {
             this.setState({w: window.innerWidth});
         }
-        window.addEventListener("devicemotion", this.handleDeviceMove, true);
+        window.addEventListener("deviceorientation", this.handleDeviceMove, true);
     }
 
     componentWillUnmount() {
     }
 
     handleDeviceMove(e) {
-        let { acceleration } = e;
-        this.setState({acceleration});
+        this.setState({tilt: e.gamma});
     }
 
     handleMouseMove = (e) => {
@@ -52,7 +51,7 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
-                <pre>{JSON.stringify(this.state.acceleration)}</pre>
+                <pre>{JSON.stringify(this.state.tilt)}</pre>
             </section>
         )
     }
