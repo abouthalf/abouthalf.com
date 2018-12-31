@@ -51,7 +51,7 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
-                <pre>{JSON.stringify(this.state.tilt)}</pre>
+                <p>{JSON.stringify(this.state.tilt)}</p>
             </section>
         )
     }
