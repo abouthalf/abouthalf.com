@@ -20,8 +20,8 @@ export default class Art extends Component {
     }
 
     handleDeviceMove = (e) => {
-        let { gamma, beta } = e;
-        let tilt = gamma || beta;
+        let { gamma, alpha } = e;
+        let tilt = gamma || alpha;
         let x = tilt ? this.state.w * (tilt / 100) : (this.state.w/2);
         this.setState({x});
     }
