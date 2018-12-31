@@ -26,12 +26,6 @@ class Layout extends React.Component {
                     display: block;
                 }
 
-                @media screen and (min-width: 768px) {
-                    .article {
-                        padding: 2rem 25%;
-                    }
-                }
-
                 .article {
                     background: #eee;
                     padding: 2rem;
@@ -39,11 +33,17 @@ class Layout extends React.Component {
 
                     color: #222;
                 }
-
                 .article h1 {
                     font-size: 3rem;
                     line-height: 1;
                     margin-bottom: 1.5rem;
+                }
+
+                @media screen and (min-width: 768px) {
+                    .article {
+                        padding-left: 25%;
+                        padding-right: 25%;
+                    }
                 }
                 
             `}</style>
