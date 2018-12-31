@@ -23,7 +23,8 @@ export default class Art extends Component {
     }
 
     handleDeviceMove(e) {
-        console.log(e);
+        let { acceleration } = e;
+        this.setState({acceleration});
     }
 
     handleMouseMove = (e) => {
@@ -51,6 +52,7 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
+                <pre>{JSON.stringify(this.state.acceleration)}</pre>
             </section>
         )
     }
