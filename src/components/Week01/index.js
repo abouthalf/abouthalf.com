@@ -15,15 +15,14 @@ export default class Art extends Component {
     componentDidMount() {
         if (window && window.innerWidth) {
             this.setState({w: window.innerWidth});
+            window.addEventListener("deviceorientation", this.handleDeviceMove, true);
         }
-        window.addEventListener("deviceorientation", this.handleDeviceMove, true);
-    }
-
-    componentWillUnmount() {
     }
 
     handleDeviceMove(e) {
-        this.setState({tilt: e.gamma});
+        let { gamma } = e;
+        let x = gamma ? this.state.w * (gamma / 100) : (w/2);
+        this.setState({x});
     }
 
     handleMouseMove = (e) => {
@@ -41,7 +40,7 @@ export default class Art extends Component {
                         width: 100vw;
                         height: 100vh;
                         background: ${backgroundColor};
-                        /*overflow-x: hidden;*/
+                        overflow-x: hidden;
                     }
                 `}</style>
                 <EggTop x={x} w={w} />
@@ -50,7 +49,6 @@ export default class Art extends Component {
                 <Portrait />
                 <Masked position="left" />
                 <Masked position="right" />
-                <p style={{color: "red"}}>{this.state.tilt}</p>
                 <Background />
             </section>
         )
