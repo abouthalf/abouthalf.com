@@ -41,7 +41,7 @@ export default class Art extends Component {
                         width: 100vw;
                         height: 100vh;
                         background: ${backgroundColor};
-                        overflow-x: hidden;
+                        /*overflow-x: hidden;*/
                     }
                 `}</style>
                 <EggTop x={x} w={w} />
@@ -50,8 +50,8 @@ export default class Art extends Component {
                 <Portrait />
                 <Masked position="left" />
                 <Masked position="right" />
+                <p style={{color: "red"}}>{this.state.tilt}</p>
                 <Background />
-                <p>{JSON.stringify(this.state.tilt)}</p>
             </section>
         )
     }
