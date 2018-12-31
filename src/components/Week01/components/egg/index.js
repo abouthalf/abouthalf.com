@@ -9,7 +9,7 @@ const translate = (x, w, m) => {
 
 export const Egg = ({ x, w }) => {
     let style = {
-        transform: translate(x, w, .010)
+        transform: translate(x, w, .050)
     };
     return <div className="egg" style={style}>
         <style jsx>{`
@@ -45,7 +45,7 @@ export const Egg = ({ x, w }) => {
 
 export const EggMiddle = ({ x, w }) => {
     let style = {
-        transform: translate(x, w, .025)
+        transform: translate(x, w, .075)
     };
     return <div className="egg-middle"  style={style}>
         <style jsx>{`
@@ -76,7 +76,7 @@ export const EggMiddle = ({ x, w }) => {
 
 export const EggTop = ({ x, w }) => {
     let style = {
-        transform: translate(x, w, .040)
+        transform: translate(x, w, .1)
     };
     return <div className="egg-top" style={style}>
         <style jsx>{`
