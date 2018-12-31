@@ -39,6 +39,10 @@ class Layout extends React.Component {
                     margin-bottom: 1.5rem;
                 }
 
+                section + .article {
+                    margin-top: 0;
+                }
+
                 @media screen and (min-width: 768px) {
                     .article {
                         padding-left: 25%;

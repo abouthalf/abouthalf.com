@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import Background from "./components/background.js";
 import Portrait, { Masked } from "./components/portrait";
 import { Egg, EggMiddle, EggTop,  } from "./components/egg";
+import PermaLink from "../PermaLink";
 
 import { backgroundColor } from "../../lib/colors";
 
@@ -51,6 +52,7 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
+                <PermaLink href="/2019/01/04/boy-looks-over-shoulder" />
             </section>
         )
     }
