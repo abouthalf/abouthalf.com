@@ -18,6 +18,6 @@
     "dev": "next src",
     "build": "next build src",
     "start": "next start src",
-    "export": "next build src && next export src"
+    "export": "next build src && next export src -o public"
   }
 }
