@@ -10,16 +10,12 @@ export default class Art extends Component {
     state = {
         x: 0,
         w: 1920,
-        has: "nooo"
     }
 
     componentDidMount() {
         if (window && window.innerWidth) {
             this.setState({w: window.innerWidth});
             window.addEventListener("deviceorientation", this.handleDeviceMove, true);
-            if (window.DeviceOrientationEvent) {
-                this.setState({has: "yasss"});
-            }
         }
     }
 
@@ -54,7 +50,6 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
-                <h1>{this.state.has}</h1>
             </section>
         )
     }
