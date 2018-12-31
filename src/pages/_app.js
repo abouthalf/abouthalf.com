@@ -8,6 +8,7 @@ class Layout extends React.Component {
         return <main className="main">
             <Head>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta charset="utf-8" />
                 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet" />
             </Head>
             <style jsx global>{`
