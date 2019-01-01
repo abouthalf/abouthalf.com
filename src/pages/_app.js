@@ -139,7 +139,7 @@ class Layout extends React.Component {
             <footer className="site-footer">
                 <nav>
                     <a href="/about">About</a>
-                    <a href="http://abouthalf.micro.blog">Micro.Blog</a>
+                    <a href="https://abouthalf.micro.blog">Micro.Blog</a>
                     <a href="https://www.instagram.com/abouthalf/">Instagram</a>
                     <a href="https://tinyletter.com/abouthalf">Newsletter</a>
                 </nav>
