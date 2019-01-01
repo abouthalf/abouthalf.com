@@ -40,6 +40,12 @@ class Layout extends React.Component {
                     margin-bottom: 1.5rem;
                 }
 
+                .article h2 {
+                    font-size: 2rem;
+                    line-height: 1.5;
+                    margin-bottom: 1rem;
+                }
+
                 section + .article {
                     margin-top: 0;
                 }
