@@ -13,6 +13,6 @@ module.exports = withMDX(withImages({
         return config
     },
     publicRuntimeConfig: {
-        host: process.env.DEPLOY_PRIME_URL || "http://localhost:3000"
+        host: process.env.URL || "http://localhost:3000"
     }
 }));
