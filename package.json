@@ -8,11 +8,14 @@
   "license": "MIT",
   "dependencies": {
     "@zeit/next-mdx": "^1.2.0",
+    "feed": "^2.0.2",
+    "markdown-it": "^8.4.2",
     "next": "^7.0.2",
     "next-images": "^1.0.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "remark-images": "^0.16.1"
+    "remark-images": "^0.16.1",
+    "unslug": "^0.1.0"
   },
   "scripts": {
     "dev": "next src",

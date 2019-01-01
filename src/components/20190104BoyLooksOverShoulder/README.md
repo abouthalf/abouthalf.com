@@ -1,5 +1,3 @@
 # Boy looks over shoulder
 
-I find inspiration for my drawing and painting practice in email newsletters from clothing stores.
-
-Fashion photography has a quiet drama about it - like film stills from a foreign movie.
+Digital painting based upon a painting in Procreate, uses CSS blend modes on duplicates of the portrait.

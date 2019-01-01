@@ -2,22 +2,27 @@ import React from 'react'
 import Head from "next/head";
 import Link from "next/link";
 import App, { Container } from "next/app";
+import getConfig from "next/config";
 
 import {link as anchorColor} from "../lib/colors";
+
+const { publicRuntimeConfig } = getConfig();
+const { host } = publicRuntimeConfig;
 
 class Layout extends React.Component {
     render() {
         return <main className="main">
             <Head>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta charset="utf-8" />
+                <meta charSet="utf-8" />
                 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
                 <link rel="icon" type="image/ico" sizes="48x48" href="/static/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
                 <link rel="manifest" href="/static/site.webmanifest" />
-                <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5" />
+                <link rel="alternate" title="JSON Feed" type="application/json" href={`${host}/feed.json`} />
+                <link rel="alternate" title="RSS Feed" type="application/rss+xml" href={`${host}/rss.xml`} />
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
             </Head>
@@ -31,6 +36,7 @@ class Layout extends React.Component {
 
                     font-size: 16px;
                     font-family: 'Old Standard TT', serif;
+                    color: #5bbad5;
                 }
 
                 img {
@@ -133,7 +139,9 @@ class Layout extends React.Component {
             <footer className="site-footer">
                 <nav>
                     <a href="/about">About</a>
-                    <a href="http://abouthalf.micro.blog">Blog</a>
+                    <a href="http://abouthalf.micro.blog">Micro.Blog</a>
+                    <a href="https://www.instagram.com/abouthalf/">Instagram</a>
+                    <a href="https://tinyletter.com/abouthalf">Newsletter</a>
                 </nav>
             </footer>
         </main>

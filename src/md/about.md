@@ -12,7 +12,9 @@ I have worked extensively with cloud providers like Amazon Web Services and has 
 
 ## This site
 
-This site is a static website, hand coded using the NextJS AND ReactJS frameworks. This site is hosted at Netlify. I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketchapp.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too. 
+This site is a static website, hand coded using the NextJS AND ReactJS frameworks. It should work reasonably well in modern browsers, excluding Microsoft Edge. 
+
+I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketchapp.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too. 
 
 ## Elsewhere
 
