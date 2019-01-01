@@ -33,7 +33,7 @@ const makeFeed = (posts, dir) => {
         feedLinks: {
             json: `${host}/feed.json`,
             atom: `${host}/atom.xml`,
-            rss: `${host}/rss.xml`,
+            rss: `${host}/feed.xml`,
         },
         author: {
             name: "Michael Barrett",
@@ -81,7 +81,7 @@ module.exports = withMDX(withImages({
 
         let feed = makeFeed(posts, dir);
         await writeFile(join(outDir, "feed.json"), feed.json1());
-        await writeFile(join(outDir, "rss.xml"), feed.rss2());
+        await writeFile(join(outDir, "feed.xml"), feed.rss2());
         await writeFile(join(outDir, "atom.xml"), feed.atom1());
 
         return defaultPathMap;

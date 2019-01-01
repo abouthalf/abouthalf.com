@@ -22,7 +22,7 @@ class Layout extends React.Component {
                 <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
                 <link rel="manifest" href="/static/site.webmanifest" />
                 <link rel="alternate" title="JSON Feed" type="application/json" href={`${host}/feed.json`} />
-                <link rel="alternate" title="RSS Feed" type="application/rss+xml" href={`${host}/rss.xml`} />
+                <link rel="alternate" title="RSS Feed" type="application/rss+xml" href={`${host}/feed.xml`} />
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
             </Head>
