@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import App, { Container } from "next/app";
 
+import {link as anchorColor} from "../lib/colors";
+
 class Layout extends React.Component {
     render() {
         return <main className="main">
@@ -27,6 +29,18 @@ class Layout extends React.Component {
                     display: block;
                 }
 
+                a {
+                    color: ${anchorColor};
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+
+                a:hover,
+                a:active {
+                    color: white;
+                    background-color: black;
+                }
+
                 .article {
                     background: #eee;
                     padding: 2rem;
@@ -48,6 +62,13 @@ class Layout extends React.Component {
 
                 section + .article {
                     margin-top: 0;
+                }
+
+                @media screen and (max-width: 768px) {
+                    .article h1,
+                    .article h2 {
+                        text-align: center;
+                    }
                 }
 
                 @media screen and (min-width: 768px) {
@@ -82,10 +103,14 @@ class Layout extends React.Component {
                 }
                 .site-footer a {
                     color: #fff;
+                    font-weight: normal;
                     text-decoration: none;
                     display: inline-block;
                     line-height: 2rem;
                     margin: 0 1rem 0 0;
+                }
+                .site-footer a:hover {
+                    background: transparent;
                 }
                 `}</style>
             <header className="site-header">
