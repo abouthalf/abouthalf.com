@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import App, { Container } from "next/app";
 
+import SocialHeadMeta from "../components/SocialHeadMeta";
+
 import {link as anchorColor} from "../lib/colors";
 
 class Layout extends React.Component {
@@ -12,7 +14,16 @@ class Layout extends React.Component {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta charset="utf-8" />
                 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+                <link rel="icon" type="image/ico" sizes="48x48" href="/static/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+                <link rel="manifest" href="/static/site.webmanifest" />
+                <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5" />
+                <meta name="msapplication-TileColor" content="#da532c" />
+                <meta name="theme-color" content="#ffffff" />
             </Head>
+            <SocialHeadMeta />
             <style jsx global>{`
                 html, body {
                     margin: 0;
@@ -27,18 +38,6 @@ class Layout extends React.Component {
 
                 img {
                     display: block;
-                }
-
-                a {
-                    color: ${anchorColor};
-                    font-weight: bold;
-                    text-decoration: none;
-                }
-
-                a:hover,
-                a:active {
-                    color: white;
-                    background-color: black;
                 }
 
                 .article {
@@ -58,6 +57,18 @@ class Layout extends React.Component {
                     font-size: 2rem;
                     line-height: 1.5;
                     margin-bottom: 1rem;
+                }
+
+                .article a {
+                    color: ${anchorColor};
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+
+                .article a:hover,
+                .article a:active {
+                    color: white;
+                    background-color: black;
                 }
 
                 section + .article {

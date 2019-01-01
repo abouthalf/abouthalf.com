@@ -7,6 +7,8 @@ import PermaLink from "../PermaLink";
 
 import { backgroundColor } from "../../lib/colors";
 
+const perma = "/2019/01/04/boy-looks-over-shoulder";
+
 export default class Art extends Component {
     state = {
         x: 0,
@@ -34,8 +36,10 @@ export default class Art extends Component {
 
     render() {
         const {x, w} = this.state;
+        const { perma } = this.props;
         return (
             <section ref={el => this.scene = el}className="boy-looks-over-shoulder" onMouseMove={this.handleMouseMove}>
+                
                 <style jsx>{`
                     .boy-looks-over-shoulder {
                         position: relative;
@@ -52,7 +56,7 @@ export default class Art extends Component {
                 <Masked position="left" />
                 <Masked position="right" />
                 <Background />
-                <PermaLink href="/2019/01/04/boy-looks-over-shoulder" />
+                <PermaLink href={perma} />
             </section>
         )
     }

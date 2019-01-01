@@ -17,6 +17,7 @@ export default ({ href }) => {
             }
 
             a {
+                color: black;
                 font-family: sans-serif;
                 text-decoration: none;
                 line-height: ${d};

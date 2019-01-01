@@ -11,5 +11,8 @@ const withMDX = require('@zeit/next-mdx')({
 module.exports = withMDX(withImages({
     webpack(config, options) {
         return config
+    },
+    publicRuntimeConfig: {
+        host: process.env.DEPLOY_PRIME_URL || "http://localhost:3000"
     }
 }));
