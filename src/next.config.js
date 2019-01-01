@@ -43,14 +43,14 @@ const makeFeed = (posts, dir) => {
 
     posts.forEach(p => {
             let title = unslug((p.split("/")).pop());
-            let url = `${host}${p}`;
+            let url = `${host}/${p}`;
             let date = new Date((p.match(/\d\d\d\d\/\d\d\/\d\d/))[0]);
 
             let markdown = fs.readFileSync(join(dir, `pages/${p}.md`), "utf8");
             let content = md.render(markdown);
             feed.addItem({
                 title,
-                url,
+                link: url,
                 id: url,
                 date,
                 content,
