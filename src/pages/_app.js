@@ -3,8 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import App, { Container } from "next/app";
 
-import SocialHeadMeta from "../components/SocialHeadMeta";
-
 import {link as anchorColor} from "../lib/colors";
 
 class Layout extends React.Component {
@@ -23,7 +21,6 @@ class Layout extends React.Component {
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
             </Head>
-            <SocialHeadMeta />
             <style jsx global>{`
                 html, body {
                     margin: 0;
