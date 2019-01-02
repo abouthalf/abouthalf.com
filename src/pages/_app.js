@@ -78,6 +78,13 @@ class Layout extends React.Component {
                     margin-top: 0;
                 }
 
+                .noselect {
+                    -webkit-user-select: none;  /* Chrome all / Safari all */
+                    -moz-user-select: none;     /* Firefox all */
+                    -ms-user-select: none;      /* IE 10+ */
+                    user-select: none; 
+                }
+
                 @media screen and (max-width: 768px) {
                     .article h1,
                     .article h2 {
@@ -98,7 +105,7 @@ class Layout extends React.Component {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    z-index: 900;
+                    z-index: 1000;
                 }
                 .logo {
                     position: relative;
