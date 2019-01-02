@@ -10,7 +10,7 @@ export default ({ deg, x = "0%", y = "0%", s=1 }) => {
         width: "100px",
         height: "100px",
         margin: "-50px 0 0 -50px",
-        zIndex: 9999,
+        zIndex: 900,
         transform,
         opacity
     }

@@ -68,9 +68,10 @@ export default class Art extends Component {
      * @param {Number} clientY 
      */
     setTouch(clientX, clientY) {
-        const { w, h, touches } = this.state;
-        let x = Math.round((clientX / w) * 100);
-        let y = Math.round((clientY / h) * 100);
+        const { touches } = this.state;
+        const rect = this.scene.getBoundingClientRect();
+        let x = Math.round(( (clientX - rect.left)  / rect.width) * 100);
+        let y = Math.round(( (clientY - rect.top) / rect.height) * 100);
         let d = this.getRandomDeg();
         touches.push({ x, y, d});
         this.setState({ touches });
@@ -119,7 +120,7 @@ export default class Art extends Component {
                         width: 100vw;
                         height: 100vh;
                         background: ${backgroundColor};
-                        overflow-x: hidden;
+                        overflow: hidden;
                     }
                 `}</style>
                 {this.renderTouches(touches)}
