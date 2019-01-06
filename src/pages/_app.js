@@ -25,6 +25,13 @@ class Layout extends React.Component {
                 <link rel="alternate" title="RSS Feed" type="application/rss+xml" href={`${host}/feed.xml`} />
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104505721-4"></script>
+                <script dangerouslySetInnerHTML={{__html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-104505721-4');`}} />
             </Head>
             <style jsx global>{`
                 html, body {
