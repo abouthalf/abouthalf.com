@@ -66,6 +66,9 @@ module.exports = withMDX(withImages({
     webpack(config, options) {
         return config
     },
+    devIndicators: {
+        autoPrerender: false,
+    },
     publicRuntimeConfig: {
         host
     },
