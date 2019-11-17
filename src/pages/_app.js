@@ -188,6 +188,13 @@ class Layout extends React.Component {
                         background: transparent;
                     }
                 `}</style>
+                <style jsx>{`
+                    @media screen and (max-width: 768px) {
+                        .masthead {
+                            max-width: none;
+                        }
+                    }
+                `}</style>
                 <header className="masthead">
                     <nav>
                         <a href="/about">About</a>

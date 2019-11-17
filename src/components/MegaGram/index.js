@@ -35,11 +35,18 @@ const MegaGram = ({ index, title, date, path = "" }) => {
                     opacity: 0;
                     transition: all 500ms;
                 }
+                header span {
+                    background-color: rgba(0, 0, 0, 0.6);
+                    padding: 0.25rem;
+                }
                 header h1 {
                     font-size: 1.5rem;
+                    text-shadow: 0px 0px 3px #000;
                 }
                 header h2 {
                     font-size: 1rem;
+
+                    text-shadow: 0px 0px 2px #000;
                 }
                 .grid {
                     max-width: 1000px;
@@ -67,8 +74,12 @@ const MegaGram = ({ index, title, date, path = "" }) => {
                 }
             `}</style>
             <header>
-                <h1>{title}</h1>
-                <h2>{date}</h2>
+                <h1>
+                    <span>{title}</span>
+                </h1>
+                <h2>
+                    <span>{date}</span>
+                </h2>
             </header>
             <div className="grid">
                 {images.map((img, i) => (
