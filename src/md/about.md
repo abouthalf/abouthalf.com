@@ -1,6 +1,6 @@
 # This is an art journal
 
-This is an art journal where I share paintings, animations, and netart. I like to work with found images, my own snapshots, and digital paintings I create using an iPad and digital painting software. I like making art on the public internet where anyone can have it. I like using an inkjet printer as a printing press and making real things out of virtual images. 
+This is an art journal where I share paintings, animations, and netart. I like to work with found images, my own snapshots, and digital paintings I create using an iPad and digital painting software. I like making art on the public internet where anyone can have it. I like using an inkjet printer as a printing press and making real things out of virtual images.
 
 I think a digital painting can be more than pixels on a screen. It can be responsive, filling its rectangular container. It can respond to your touch or your mouse.
 
@@ -12,12 +12,12 @@ I have worked extensively with cloud providers like Amazon Web Services and has 
 
 ## This site
 
-This site is a static website, hand coded using the NextJS AND ReactJS frameworks. It should work reasonably well in modern browsers, excluding Microsoft Edge. 
+This site is a static website, hand coded using the NextJS AND ReactJS frameworks. It should work reasonably well in modern browsers, excluding Microsoft Edge.
 
-I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketchapp.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too. 
+I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketchapp.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too.
 
 ## Elsewhere
 
-* I keep a (tiny) blog at Micro.blog: http://abouthalf.micro.blog
-* I keep a newsletter: https://tinyletter.com/abouthalf
-* I use Instagram as a playground: https://www.instagram.com/abouthalf/ 
+-   I keep a (tiny) blog at Micro.blog: http://abouthalf.micro.blog
+-   I keep a newsletter: https://tinyletter.com/abouthalf
+-   I use Instagram as a playground: https://www.instagram.com/abouthalf/
