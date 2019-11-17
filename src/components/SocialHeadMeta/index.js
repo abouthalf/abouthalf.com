@@ -7,7 +7,7 @@ const { host } = publicRuntimeConfig;
 export default ({
   title = "Michael Barrett @ Abouthalf.com",
   description = "An art journal",
-  image = "/static/thumbnail.jpg",
+  image = "/thumbnail.jpg",
   keywords = "art netart painting drawing",
   url = ""
 }) => {

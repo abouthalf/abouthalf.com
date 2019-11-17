@@ -26,8 +26,8 @@ const makeFeed = (posts, dir) => {
         description: "This is an art journal",
         id: host,
         link: host,
-        image: `${host}/static/fav.jpg`,
-        favicon: `${host}/static/favicon.ico`,
+        image: `${host}/fav.jpg`,
+        favicon: `${host}/favicon.ico`,
         copyright: `© Michael Barrett ${(new Date()).getFullYear()}`,
         generator: "me",
         feedLinks: {

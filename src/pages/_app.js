@@ -16,11 +16,11 @@ class Layout extends React.Component {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta charSet="utf-8" />
                 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet" />
-                <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
-                <link rel="icon" type="image/ico" sizes="48x48" href="/static/favicon.ico" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
-                <link rel="manifest" href="/static/site.webmanifest" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+                <link rel="icon" type="image/ico" sizes="48x48" href="/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="manifest" href="/site.webmanifest" />
                 <link rel="alternate" title="JSON Feed" type="application/json" href={`${host}/feed.json`} />
                 <link rel="alternate" title="RSS Feed" type="application/rss+xml" href={`${host}/feed.xml`} />
                 <meta name="msapplication-TileColor" content="#da532c" />
@@ -108,16 +108,20 @@ class Layout extends React.Component {
                 
             `}</style>
             <style jsx>{`
-                .site-header {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    z-index: 1000;
+                .masthead {
+                    
+                    margin: 0 auto;
+                    max-width: 50%;
                 }
                 .logo {
                     position: relative;
                     padding: 0;
-                    margin: 1rem;
+                    margin: 1rem 0;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+                .logo img {
+                    display: block;
                 }
                 .logo span {
                     position:absolute;
@@ -126,38 +130,39 @@ class Layout extends React.Component {
                     overflow: hidden;
                 }
 
-                .site-footer {
-                    padding: 1rem;
+                .masthead nav {
+                    margin: 1rem 0;
+                    text-align: center;
                 }
-                .site-footer a {
+
+                .masthead a {
                     color: #fff;
                     font-weight: normal;
                     text-decoration: none;
                     display: inline-block;
-                    line-height: 2rem;
-                    margin: 0 1rem 0 0;
+                    text-transform: lowercase;
+                    line-height: 3;
+                    margin: 0 1rem;
                 }
-                .site-footer a:hover {
+                .masthead a:hover {
                     background: transparent;
                 }
                 `}</style>
-            <header className="site-header">
+            <header className="masthead">
+                <nav>
+                    <a href="/about">About</a>
+                    <a href="/about">Contact</a>
+                    <a target="_blank" href="https://www.instagram.com/abouthalf/">Instagram</a>
+                    <a target="_blank" href="https://tinyletter.com/abouthalf">Newsletter</a>
+                </nav>
                 <h1 className="logo">
                     <a href="/">
-                        <img src="/static/logo-white-small.svg" width="100" alt="" />
+                        <img src="/logo-white-small.svg" width="100" alt="" />
                         <span>michael barrett @ abouthalf.com</span>
                     </a>
                 </h1>
             </header>
             {this.props.children}
-            <footer className="site-footer">
-                <nav>
-                    <a href="/about">About</a>
-                    <a href="https://abouthalf.micro.blog">Micro.Blog</a>
-                    <a href="https://www.instagram.com/abouthalf/">Instagram</a>
-                    <a href="https://tinyletter.com/abouthalf">Newsletter</a>
-                </nav>
-            </footer>
         </main>
     }
 }
