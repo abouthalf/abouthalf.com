@@ -46,18 +46,6 @@ class Layout extends React.Component {
                         href="/favicon-16x16.png"
                     />
                     <link rel="manifest" href="/site.webmanifest" />
-                    <link
-                        rel="alternate"
-                        title="JSON Feed"
-                        type="application/json"
-                        href={`${host}/feed.json`}
-                    />
-                    <link
-                        rel="alternate"
-                        title="RSS Feed"
-                        type="application/rss+xml"
-                        href={`${host}/feed.xml`}
-                    />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
                     <script
@@ -198,7 +186,7 @@ class Layout extends React.Component {
                 <header className="masthead">
                     <nav>
                         <a href="/about">About</a>
-                        {/* <a href="/about">Contact</a> */}
+                        <a href="/projects">Projects</a>
                         <a
                             target="_blank"
                             href="https://www.instagram.com/abouthalf/">
