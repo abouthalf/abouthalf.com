@@ -1,6 +1,7 @@
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import MegaGram from "../components/MegaGram";
 
+import MegaGram20191208 from "../public/images/2019/12/08/index";
 import MegaGram20191207 from "../public/images/2019/12/07/index";
 import MegaGram20191114 from "../public/images/2019/11/14/index";
 import MegaGram20191110 from "../public/images/2019/11/10/index";
@@ -19,6 +20,12 @@ import MegaGram20180624 from "../public/images/2018/06/24/index";
 export default () => (
     <article>
         <SocialHeadMeta />
+        <MegaGram
+            index={MegaGram20191208}
+            title="Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel."
+            path="/images/2019/12/08/"
+            date="December 8 2019"
+        />
         <MegaGram
             index={MegaGram20191207}
             title="Late night, walking the dog"
