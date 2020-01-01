@@ -8,7 +8,7 @@ I completed a Master of Fine Arts at the University of North Carolina at Greensb
 
 I have worked extensively with cloud providers like Amazon Web Services and has worked with container orchestration platforms like Kubernetes. Lately, I likes to say ["JAMstack"](https://jamstack.org/) in meetings to see if anyone notices.
 
-I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketchapp.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too.
+I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript editor on macOS. I prefer [Procreate](https://procreate.art/) on the iPad for painting. I prefer [Sketch](https://www.sketch.com/) on macOS for creating web graphics. [PixelmatorPro](https://www.pixelmator.com/pro/) is pretty nice too.
 
 ## This site
 
@@ -16,6 +16,6 @@ This site is a static website, created using the NextJS and ReactJS frameworks. 
 
 ## Elsewhere
 
--   I keep a (tiny) blog at Micro.blog: http://abouthalf.micro.blog
+-   I have a seldom used Twitter: https://twitter.com/abouthalf
 -   I keep a newsletter: https://tinyletter.com/abouthalf
 -   I use Instagram as a playground: https://www.instagram.com/abouthalf/
