@@ -7,17 +7,17 @@
     "author": "Michael Barrett <mb@abouthalf.com>",
     "license": "MIT",
     "dependencies": {
-        "@zeit/next-mdx": "^1.2.0",
+        "@mdx-js/loader": "^1.5.3",
+        "@next/mdx": "^9.1.6",
         "blazy": "^1.8.2",
         "feed": "^2.0.2",
-        "lodash": "4.17.13",
+        "lodash": "4.17.15",
         "markdown-it": "^8.4.2",
-        "next": "9.1.3",
+        "next": "9.1.6",
         "next-images": "1.2.0",
         "react": "16.12.0",
         "react-dom": "16.12.0",
-        "remark-images": "^0.16.1",
-        "unslug": "^0.1.0"
+        "remark-images": "0.16.1"
     },
     "scripts": {
         "dev": "next src",
