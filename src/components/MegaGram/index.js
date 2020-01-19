@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Blazy from "blazy";
 import { orderBy } from "lodash";
+import slug from "slug";
 
 const placeholder =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
@@ -10,12 +11,14 @@ const MegaGram = ({ index, title, date, path = "" }) => {
 
     let images = orderBy(index, null, ["desc"]);
 
+    let hash = slug(date);
+
     useEffect(() => {
         let b = new Blazy();
     });
 
     return (
-        <section className="gram">
+        <section id={hash} className="gram">
             <style jsx>{`
                 .gram {
                     position: relative;
@@ -35,9 +38,12 @@ const MegaGram = ({ index, title, date, path = "" }) => {
                     opacity: 0;
                     transition: all 500ms;
                 }
+                header a,
                 header span {
                     background-color: rgba(0, 0, 0, 0.6);
                     padding: 0.25rem;
+                    color: inherit;
+                    text-decoration: none;
                 }
                 header h1 {
                     font-size: 1.5rem;
@@ -75,7 +81,7 @@ const MegaGram = ({ index, title, date, path = "" }) => {
             `}</style>
             <header>
                 <h1>
-                    <span>{title}</span>
+                    <a href={`#${hash}`}>{title}</a>
                 </h1>
                 <h2>
                     <span>{date}</span>
