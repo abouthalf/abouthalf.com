@@ -1,6 +1,7 @@
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import MegaGram from "../components/MegaGram";
 
+import MegaGram20200120 from "../public/images/2020/01/20/index";
 import MegaGram20191214 from "../public/images/2019/12/14/index";
 import MegaGram20191208 from "../public/images/2019/12/08/index";
 import MegaGram20191207 from "../public/images/2019/12/07/index";
@@ -21,7 +22,12 @@ import MegaGram20180624 from "../public/images/2018/06/24/index";
 export default () => (
     <article>
         <SocialHeadMeta />
-
+        <MegaGram
+            index={MegaGram20200120}
+            title="Overlapping idealizations."
+            path="/images/2020/01/20/"
+            date="January 20 2020"
+        />
         <MegaGram
             index={MegaGram20191214}
             title="Sweater weather. Portrait study from a Uniqlo advertisement."
