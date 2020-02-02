@@ -91,17 +91,23 @@ class Layout extends React.Component {
                         font-size: 3rem;
                         line-height: 1;
                         margin-bottom: 1.5rem;
+
+                        font-family: Helvetica, Arial, sans-serif;
+                        font-weight: normal;
                     }
 
                     .article h2 {
                         font-size: 2rem;
                         line-height: 1.5;
                         margin-bottom: 1rem;
+
+                        font-family: Helvetica, Arial, sans-serif;
+                        font-weight: normal;
                     }
 
                     .article a {
                         color: ${anchorColor};
-                        font-weight: bold;
+                        font-weight: normal;
                         text-decoration: none;
                     }
 
