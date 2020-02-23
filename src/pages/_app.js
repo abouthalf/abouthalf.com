@@ -92,8 +92,10 @@ class Layout extends React.Component {
                         line-height: 1;
                         margin-bottom: 1.5rem;
 
-                        font-family: Helvetica, Arial, sans-serif;
-                        font-weight: normal;
+                        font-family: "Helvetica Neue", Helvetica Arial,
+                            sans-serif;
+                        font-weight: lighter;
+                        letter-spacing: 1px;
                     }
 
                     .article h2 {
@@ -101,8 +103,10 @@ class Layout extends React.Component {
                         line-height: 1.5;
                         margin-bottom: 1rem;
 
-                        font-family: Helvetica, Arial, sans-serif;
-                        font-weight: normal;
+                        font-family: "Helvetica Neue", Helvetica, Arial,
+                            sans-serif;
+                        font-weight: lighter;
+                        letter-spacing: 1px;
                     }
 
                     .article a {
