@@ -3,7 +3,7 @@ const withImages = require("next-images");
 const withMDX = require("@next/mdx")({
     extension: /\.(md|mdx)$/,
     options: {
-        mdPlugins: [images],
+        remarkPlugins: [images],
     },
 });
 
