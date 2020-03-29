@@ -1,12 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import App from "next/app";
-import getConfig from "next/config";
 
 import { link as anchorColor } from "../lib/colors";
-
-const { publicRuntimeConfig } = getConfig();
-const { host } = publicRuntimeConfig;
 
 class Layout extends React.Component {
     render() {
