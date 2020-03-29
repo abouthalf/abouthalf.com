@@ -1,6 +1,7 @@
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import MegaGram from "../components/MegaGram";
 
+import MegaGram20200329 from "../public/images/2020/03/29/index";
 import MegaGram20200301 from "../public/images/2020/03/01/index";
 import MegaGram20200224 from "../public/images/2020/02/24/index";
 import MegaGram20200223 from "../public/images/2020/02/23/index";
@@ -27,6 +28,12 @@ export default () => (
     <article>
         <SocialHeadMeta />
 
+        <MegaGram
+            index={MegaGram20200329}
+            title="When life gives you lemons make concrete 🍋"
+            path="/images/2020/03/29/"
+            date="March 29 2020"
+        />
         <MegaGram
             index={MegaGram20200301}
             title="Recapitulated with squares"

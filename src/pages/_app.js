@@ -19,7 +19,7 @@ class Layout extends React.Component {
                     />
                     <meta charSet="utf-8" />
                     <link
-                        href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700"
+                        href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Serif&amp;display=swap"
                         rel="stylesheet"
                     />
                     <link
@@ -72,7 +72,7 @@ class Layout extends React.Component {
                         color: #fff;
 
                         font-size: 16px;
-                        font-family: "Old Standard TT", serif;
+                        font-family: "IBM Plex Serif", serif;
                         color: #5bbad5;
                     }
 
@@ -89,11 +89,10 @@ class Layout extends React.Component {
                     }
                     .article h1 {
                         font-size: 3rem;
-                        line-height: 1;
+                        line-height: 1.5;
                         margin-bottom: 1.5rem;
 
-                        font-family: "Helvetica Neue", Helvetica Arial,
-                            sans-serif;
+                        font-family: "IBM Plex Sans Condensed", sans-serif;
                         font-weight: lighter;
                         letter-spacing: 1px;
                     }
@@ -103,8 +102,7 @@ class Layout extends React.Component {
                         line-height: 1.5;
                         margin-bottom: 1rem;
 
-                        font-family: "Helvetica Neue", Helvetica, Arial,
-                            sans-serif;
+                        font-family: "IBM Plex Sans Condensed", sans-serif;
                         font-weight: lighter;
                         letter-spacing: 1px;
                     }
