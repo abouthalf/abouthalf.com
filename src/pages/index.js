@@ -16,7 +16,7 @@ export default ({ posts }) => {
     };
 
     const renderMegaGram = post => {
-        const { date, year, month, day, title, index } = post;
+        const { date, year, month, day, title, description, index } = post;
         const d = new Date(date);
         const formattedDate = d.toLocaleDateString("en-US", {
             year: "numeric",
@@ -29,6 +29,7 @@ export default ({ posts }) => {
                 key={date}
                 index={index}
                 title={title}
+                description={description}
                 date={formattedDate}
                 path={path}
                 year={year}

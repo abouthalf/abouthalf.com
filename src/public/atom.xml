@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://abouthalf.com</id>
+    <title>Michael Barrett : Abouthalf.com</title>
+    <updated>2020-03-31T03:43:33.697Z</updated>
+    <generator>Michael's gnarled hands and brow sweat</generator>
+    <author>
+        <name>Michael Barrett</name>
+        <email>mb@abouthalf.com</email>
+        <uri>https://abouthalf.com/about</uri>
+    </author>
+    <link rel="alternate" href="https://abouthalf.com"/>
+    <link rel="self" href="https://abouthalf.com/atom.xml"/>
+    <subtitle>This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.</subtitle>
+    <logo>https://abouthalf.com/thumbnail.jpg</logo>
+    <icon>https://abouthalf.com/favicon.ico</icon>
+    <rights>All rights reserverd 2020 - Michael Barrett</rights>
+    <entry>
+        <title type="html"><![CDATA[When life gives you lemons make concrete 🍋]]></title>
+        <id>http://localhost:3000/p/2020/03/29</id>
+        <link href="http://localhost:3000/p/2020/03/29"/>
+        <updated>2020-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When life gives you lemons make concrete 🍋 - wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO
+]]></summary>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recapitulated with squares]]></title>
+        <id>http://localhost:3000/p/2020/03/01</id>
+        <link href="http://localhost:3000/p/2020/03/01"/>
+        <updated>2020-03-01T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bundle up, it’s raining]]></title>
+        <id>http://localhost:3000/p/2020/02/24</id>
+        <link href="http://localhost:3000/p/2020/02/24"/>
+        <updated>2020-02-24T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cold front followed by tropical thought balloons.]]></title>
+        <id>http://localhost:3000/p/2020/02/23</id>
+        <link href="http://localhost:3000/p/2020/02/23"/>
+        <updated>2020-02-23T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finally some sun in Portland]]></title>
+        <id>http://localhost:3000/p/2020/02/01</id>
+        <link href="http://localhost:3000/p/2020/02/01"/>
+        <updated>2020-02-01T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overlapping idealizations]]></title>
+        <id>http://localhost:3000/p/2020/01/20</id>
+        <link href="http://localhost:3000/p/2020/01/20"/>
+        <updated>2020-01-20T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sweater weather. Portrait study from a Uniqlo advertisement.]]></title>
+        <id>http://localhost:3000/p/2019/12/14</id>
+        <link href="http://localhost:3000/p/2019/12/14"/>
+        <updated>2019-12-14T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.]]></title>
+        <id>http://localhost:3000/p/2019/12/08</id>
+        <link href="http://localhost:3000/p/2019/12/08"/>
+        <updated>2019-12-08T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Late night, walking the dog]]></title>
+        <id>http://localhost:3000/p/2019/12/07</id>
+        <link href="http://localhost:3000/p/2019/12/07"/>
+        <updated>2019-12-07T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trains, trees, windswept]]></title>
+        <id>http://localhost:3000/p/2019/11/14</id>
+        <link href="http://localhost:3000/p/2019/11/14"/>
+        <updated>2019-11-14T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eggs over Brighton]]></title>
+        <id>http://localhost:3000/p/2019/11/10</id>
+        <link href="http://localhost:3000/p/2019/11/10"/>
+        <updated>2019-11-10T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boy looking over shoulder]]></title>
+        <id>http://localhost:3000/p/2019/01/04</id>
+        <link href="http://localhost:3000/p/2019/01/04"/>
+        <updated>2019-01-04T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Portrait study with eggs]]></title>
+        <id>http://localhost:3000/p/2018/10/28</id>
+        <link href="http://localhost:3000/p/2018/10/28"/>
+        <updated>2018-10-28T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autumn landed with a thunk]]></title>
+        <id>http://localhost:3000/p/2018/10/20</id>
+        <link href="http://localhost:3000/p/2018/10/20"/>
+        <updated>2018-10-20T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Waiting for a drink. Waiting at the airport. Waiting waiting waiting.]]></title>
+        <id>http://localhost:3000/p/2018/10/17</id>
+        <link href="http://localhost:3000/p/2018/10/17"/>
+        <updated>2018-10-17T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ghosts in the walls of an old house in Portland.]]></title>
+        <id>http://localhost:3000/p/2018/09/08</id>
+        <link href="http://localhost:3000/p/2018/09/08"/>
+        <updated>2018-09-08T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunday sunset train to Portland. Wednesday sunrise train to Seattle. Notes and scribbles. Painted sunset over Tacoma. Shadowy figures.]]></title>
+        <id>http://localhost:3000/p/2018/08/21</id>
+        <link href="http://localhost:3000/p/2018/08/21"/>
+        <updated>2018-08-21T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wednesday morning commute. Bright, sunny, warm, and humid.]]></title>
+        <id>http://localhost:3000/p/2018/08/09</id>
+        <link href="http://localhost:3000/p/2018/08/09"/>
+        <updated>2018-08-09T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avocados in space over a no-tell motel.]]></title>
+        <id>http://localhost:3000/p/2018/08/01</id>
+        <link href="http://localhost:3000/p/2018/08/01"/>
+        <updated>2018-08-01T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poppies and polka-dots.]]></title>
+        <id>http://localhost:3000/p/2018/07/15</id>
+        <link href="http://localhost:3000/p/2018/07/15"/>
+        <updated>2018-07-15T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Triple process portrait with orange poppies.]]></title>
+        <id>http://localhost:3000/p/2018/07/08</id>
+        <link href="http://localhost:3000/p/2018/07/08"/>
+        <updated>2018-07-08T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For today's active man or woman]]></title>
+        <id>http://localhost:3000/p/2018/06/24</id>
+        <link href="http://localhost:3000/p/2018/06/24"/>
+        <updated>2018-06-24T00:00:00.000Z</updated>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+</feed>
