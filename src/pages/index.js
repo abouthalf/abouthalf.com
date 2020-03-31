@@ -76,7 +76,6 @@ export async function getStaticProps() {
             index,
         };
     });
-    console.log(posts);
     return {
         props: {
             posts,
