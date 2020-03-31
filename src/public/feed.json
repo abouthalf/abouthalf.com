@@ -1,0 +1,235 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Michael Barrett : Abouthalf.com",
+    "home_page_url": "https://abouthalf.com",
+    "feed_url": "https://abouthalf.com/feed.json",
+    "description": "This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.",
+    "icon": "https://abouthalf.com/thumbnail.jpg",
+    "author": {
+        "name": "Michael Barrett",
+        "url": "https://abouthalf.com/about"
+    },
+    "items": [
+        {
+            "id": "http://localhost:3000/p/2020/03/29",
+            "url": "http://localhost:3000/p/2020/03/29",
+            "title": "When life gives you lemons make concrete 🍋",
+            "summary": "When life gives you lemons make concrete 🍋 - wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO\n",
+            "date_modified": "2020-03-29T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2020/03/01",
+            "url": "http://localhost:3000/p/2020/03/01",
+            "title": "Recapitulated with squares",
+            "date_modified": "2020-03-01T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2020/02/24",
+            "url": "http://localhost:3000/p/2020/02/24",
+            "title": "Bundle up, it’s raining",
+            "date_modified": "2020-02-24T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2020/02/23",
+            "url": "http://localhost:3000/p/2020/02/23",
+            "title": "Cold front followed by tropical thought balloons.",
+            "date_modified": "2020-02-23T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2020/02/01",
+            "url": "http://localhost:3000/p/2020/02/01",
+            "title": "Finally some sun in Portland",
+            "date_modified": "2020-02-01T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2020/01/20",
+            "url": "http://localhost:3000/p/2020/01/20",
+            "title": "Overlapping idealizations",
+            "date_modified": "2020-01-20T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/12/14",
+            "url": "http://localhost:3000/p/2019/12/14",
+            "title": "Sweater weather. Portrait study from a Uniqlo advertisement.",
+            "date_modified": "2019-12-14T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/12/08",
+            "url": "http://localhost:3000/p/2019/12/08",
+            "title": "Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.",
+            "date_modified": "2019-12-08T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/12/07",
+            "url": "http://localhost:3000/p/2019/12/07",
+            "title": "Late night, walking the dog",
+            "date_modified": "2019-12-07T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/11/14",
+            "url": "http://localhost:3000/p/2019/11/14",
+            "title": "Trains, trees, windswept",
+            "date_modified": "2019-11-14T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/11/10",
+            "url": "http://localhost:3000/p/2019/11/10",
+            "title": "Eggs over Brighton",
+            "date_modified": "2019-11-10T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2019/01/04",
+            "url": "http://localhost:3000/p/2019/01/04",
+            "title": "Boy looking over shoulder",
+            "date_modified": "2019-01-04T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/10/28",
+            "url": "http://localhost:3000/p/2018/10/28",
+            "title": "Portrait study with eggs",
+            "date_modified": "2018-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/10/20",
+            "url": "http://localhost:3000/p/2018/10/20",
+            "title": "Autumn landed with a thunk",
+            "date_modified": "2018-10-20T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/10/17",
+            "url": "http://localhost:3000/p/2018/10/17",
+            "title": "Waiting for a drink. Waiting at the airport. Waiting waiting waiting.",
+            "date_modified": "2018-10-17T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/09/08",
+            "url": "http://localhost:3000/p/2018/09/08",
+            "title": "Ghosts in the walls of an old house in Portland.",
+            "date_modified": "2018-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/08/21",
+            "url": "http://localhost:3000/p/2018/08/21",
+            "title": "Sunday sunset train to Portland. Wednesday sunrise train to Seattle. Notes and scribbles. Painted sunset over Tacoma. Shadowy figures.",
+            "date_modified": "2018-08-21T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/08/09",
+            "url": "http://localhost:3000/p/2018/08/09",
+            "title": "Wednesday morning commute. Bright, sunny, warm, and humid.",
+            "date_modified": "2018-08-09T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/08/01",
+            "url": "http://localhost:3000/p/2018/08/01",
+            "title": "Avocados in space over a no-tell motel.",
+            "date_modified": "2018-08-01T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/07/15",
+            "url": "http://localhost:3000/p/2018/07/15",
+            "title": "Poppies and polka-dots.",
+            "date_modified": "2018-07-15T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/07/08",
+            "url": "http://localhost:3000/p/2018/07/08",
+            "title": "Triple process portrait with orange poppies.",
+            "date_modified": "2018-07-08T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000/p/2018/06/24",
+            "url": "http://localhost:3000/p/2018/06/24",
+            "title": "For today's active man or woman",
+            "date_modified": "2018-06-24T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        }
+    ]
+}

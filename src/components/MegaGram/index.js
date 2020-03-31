@@ -7,7 +7,16 @@ import Link from "next/link";
 const placeholder =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 
-const MegaGram = ({ index, title, date, year, month, day, path = "" }) => {
+const MegaGram = ({
+    index,
+    title,
+    description,
+    date,
+    year,
+    month,
+    day,
+    path = "",
+}) => {
     if (!Array.isArray(index)) return null;
 
     let images = orderBy(index, null, ["desc"]);
@@ -83,8 +92,15 @@ const MegaGram = ({ index, title, date, year, month, day, path = "" }) => {
             `}</style>
             <header>
                 <h1>
-                    <a href={postUrl}>{title}</a>
+                    <Link href={postUrl}>
+                        <a>{title}</a>
+                    </Link>
                 </h1>
+                {description && (
+                    <h2>
+                        <span>{description}</span>
+                    </h2>
+                )}
                 <h2>
                     <span>{date}</span>
                 </h2>

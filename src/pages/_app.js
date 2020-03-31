@@ -42,6 +42,17 @@ class Layout extends React.Component {
                         href="/favicon-16x16.png"
                     />
                     <link rel="manifest" href="/site.webmanifest" />
+                    <link
+                        rel="alternate"
+                        type="application/rss+xml"
+                        href={`${process.env.URL}/rss.xml`}
+                    />
+                    <link
+                        rel="alternate"
+                        type="application/json"
+                        title="JSON Feed"
+                        href={`${process.env.URL}/feed.json`}
+                    />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
                     <script
