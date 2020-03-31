@@ -7,27 +7,35 @@ import MegaGram from "../components/MegaGram";
 export default ({ posts }) => {
     const renderPosts = posts => {
         return posts.map(post => {
-            const { date, year, month, day, title, index } = post;
-            const d = new Date(date);
-            const formattedDate = d.toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-            });
-            const path = `/images/${year}/${month}/${day}/`;
-            return (
-                <MegaGram
-                    key={date}
-                    index={index}
-                    title={title}
-                    date={formattedDate}
-                    path={path}
-                    year={year}
-                    month={month}
-                    day={day}
-                />
-            );
+            const { type } = post;
+            if (type === "MegaGram") {
+                return renderMegaGram(post);
+            }
+            return null;
         });
+    };
+
+    const renderMegaGram = post => {
+        const { date, year, month, day, title, index } = post;
+        const d = new Date(date);
+        const formattedDate = d.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+        });
+        const path = `/images/${year}/${month}/${day}/`;
+        return (
+            <MegaGram
+                key={date}
+                index={index}
+                title={title}
+                date={formattedDate}
+                path={path}
+                year={year}
+                month={month}
+                day={day}
+            />
+        );
     };
 
     return (
