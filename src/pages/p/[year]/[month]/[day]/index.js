@@ -8,8 +8,8 @@ import path from "path";
 
 export default ({
     title,
-    keywords,
-    description,
+    keywords = "",
+    description = "",
     date,
     type,
     year,
@@ -82,8 +82,8 @@ export async function getStaticProps({ params }) {
     const { fields } = posts[0];
     const {
         Title: title,
-        Description: description,
-        Keywords: keywords,
+        Description: description = "",
+        Keywords: keywords = "",
         Date: date,
         Type: type,
     } = fields;
