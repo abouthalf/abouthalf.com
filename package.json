@@ -9,7 +9,9 @@
     "dependencies": {
         "@mdx-js/loader": "^1.5.3",
         "@next/mdx": "^9.1.6",
+        "airtable": "^0.8.1",
         "blazy": "^1.8.2",
+        "dotenv": "^8.2.0",
         "feed": "^2.0.2",
         "lodash": "4.17.15",
         "markdown-it": "^8.4.2",

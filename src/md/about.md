@@ -12,7 +12,7 @@ I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript ed
 
 ## This site
 
-This site is a static website, created using the NextJS and ReactJS frameworks. It should work reasonably well in modern browsers.
+This site is a static website, created using the NextJS and ReactJS frameworks and hosted at Netlify. It should work reasonably well in modern browsers.
 
 ## Elsewhere
 

@@ -2,16 +2,18 @@ import { useEffect } from "react";
 import Blazy from "blazy";
 import { orderBy } from "lodash";
 import slug from "slug";
+import Link from "next/link";
 
 const placeholder =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 
-const MegaGram = ({ index, title, date, path = "" }) => {
+const MegaGram = ({ index, title, date, year, month, day, path = "" }) => {
     if (!Array.isArray(index)) return null;
 
     let images = orderBy(index, null, ["desc"]);
 
     let hash = slug(date);
+    let postUrl = `/p/${year}/${month}/${day}`;
 
     useEffect(() => {
         let b = new Blazy();
@@ -81,7 +83,7 @@ const MegaGram = ({ index, title, date, path = "" }) => {
             `}</style>
             <header>
                 <h1>
-                    <a href={`#${hash}`}>{title}</a>
+                    <a href={postUrl}>{title}</a>
                 </h1>
                 <h2>
                     <span>{date}</span>

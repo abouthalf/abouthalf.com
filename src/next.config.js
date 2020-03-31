@@ -1,3 +1,4 @@
+require("dotenv").config();
 const images = require("remark-images");
 const withImages = require("next-images");
 const withMDX = require("@next/mdx")({
@@ -7,8 +8,6 @@ const withMDX = require("@next/mdx")({
     },
 });
 
-const host = process.env.URL || "http://localhost:3000";
-
 module.exports = withMDX(
     withImages({
         webpack(config, options) {
@@ -17,8 +16,9 @@ module.exports = withMDX(
         devIndicators: {
             autoPrerender: false,
         },
-        publicRuntimeConfig: {
-            host,
+        env: {
+            URL: process.env.URL || "http://localhost:3000",
+            AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
         },
     }),
 );
