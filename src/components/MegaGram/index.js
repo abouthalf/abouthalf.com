@@ -19,8 +19,6 @@ const MegaGram = ({
 }) => {
     if (!Array.isArray(index)) return null;
 
-    let images = orderBy(index, null, ["desc"]);
-
     let hash = slug(date);
     let postUrl = `/p/${year}/${month}/${day}`;
 
@@ -106,7 +104,7 @@ const MegaGram = ({
                 </h2>
             </header>
             <div className="grid">
-                {images.map((img, i) => (
+                {index.reverse().map((img, i) => (
                     <img
                         key={img}
                         className="b-lazy"
