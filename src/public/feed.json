@@ -11,10 +11,21 @@
     },
     "items": [
         {
+            "id": "http://localhost:3000/p/2020/04/04",
+            "url": "http://localhost:3000/p/2020/04/04",
+            "title": "Spring Forward",
+            "summary": "Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.\n",
+            "date_modified": "2020-04-04T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
             "id": "http://localhost:3000/p/2020/03/29",
             "url": "http://localhost:3000/p/2020/03/29",
             "title": "When life gives you lemons make concrete 🍋",
-            "summary": "When life gives you lemons make concrete 🍋 - wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO\n",
+            "summary": "Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO\n",
             "date_modified": "2020-03-29T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -25,6 +36,7 @@
             "id": "http://localhost:3000/p/2020/03/01",
             "url": "http://localhost:3000/p/2020/03/01",
             "title": "Recapitulated with squares",
+            "summary": "A portrait study from a Uniqlo ad which seems to be remembering it's beginnings\n",
             "date_modified": "2020-03-01T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -35,6 +47,7 @@
             "id": "http://localhost:3000/p/2020/02/24",
             "url": "http://localhost:3000/p/2020/02/24",
             "title": "Bundle up, it’s raining",
+            "summary": "A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols\t\n",
             "date_modified": "2020-02-24T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -45,6 +58,7 @@
             "id": "http://localhost:3000/p/2020/02/23",
             "url": "http://localhost:3000/p/2020/02/23",
             "title": "Cold front followed by tropical thought balloons.",
+            "summary": "A portrait study with a tropical snapshot thought balloon\n",
             "date_modified": "2020-02-23T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -55,6 +69,7 @@
             "id": "http://localhost:3000/p/2020/02/01",
             "url": "http://localhost:3000/p/2020/02/01",
             "title": "Finally some sun in Portland",
+            "summary": "Dashboard camera, graphic clouds, and a diminished portrait study.\n",
             "date_modified": "2020-02-01T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -65,6 +80,7 @@
             "id": "http://localhost:3000/p/2020/01/20",
             "url": "http://localhost:3000/p/2020/01/20",
             "title": "Overlapping idealizations",
+            "summary": "A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. \n",
             "date_modified": "2020-01-20T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -75,6 +91,7 @@
             "id": "http://localhost:3000/p/2019/12/14",
             "url": "http://localhost:3000/p/2019/12/14",
             "title": "Sweater weather. Portrait study from a Uniqlo advertisement.",
+            "summary": "A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves\n\n",
             "date_modified": "2019-12-14T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -85,6 +102,7 @@
             "id": "http://localhost:3000/p/2019/12/08",
             "url": "http://localhost:3000/p/2019/12/08",
             "title": "Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.",
+            "summary": "A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.\n",
             "date_modified": "2019-12-08T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",
@@ -95,6 +113,7 @@
             "id": "http://localhost:3000/p/2019/12/07",
             "url": "http://localhost:3000/p/2019/12/07",
             "title": "Late night, walking the dog",
+            "summary": "Do you ever really look around at night? It's weird.\n",
             "date_modified": "2019-12-07T00:00:00.000Z",
             "author": {
                 "name": "Michael Barrett",

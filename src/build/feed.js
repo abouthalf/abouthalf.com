@@ -69,7 +69,6 @@ async function main() {
             id: link,
             link,
             description,
-            description,
             date: new Date(date),
             author: [author],
         });
