@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Michael Barrett : Abouthalf.com</title>
         <link>https://abouthalf.com</link>
         <description>This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.</description>
-        <lastBuildDate>Sun, 05 Apr 2020 21:56:32 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Apr 2020 23:44:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Michael's gnarled hands and brow sweat</generator>
         <language>en</language>
@@ -16,12 +16,25 @@
         <copyright>All rights reserverd 2020 - Michael Barrett</copyright>
         <atom:link href="https://abouthalf.com/atom.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[15 new paintings]]></title>
+            <link>http://localhost:3000/p/2020/04/05</link>
+            <guid>http://localhost:3000/p/2020/04/05</guid>
+            <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[15 new paintings - 12" by 12" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.
+]]></description>
+            <content:encoded><![CDATA[15 new paintings - 12" by 12" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
             <title><![CDATA[Spring Forward]]></title>
             <link>http://localhost:3000/p/2020/04/04</link>
             <guid>http://localhost:3000/p/2020/04/04</guid>
             <pubDate>Sat, 04 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.
 ]]></description>
+            <content:encoded><![CDATA[Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -31,6 +44,8 @@
             <pubDate>Sun, 29 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO
 ]]></description>
+            <content:encoded><![CDATA[Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -40,6 +55,8 @@
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad which seems to be remembering it's beginnings
 ]]></description>
+            <content:encoded><![CDATA[A portrait study from a Uniqlo ad which seems to be remembering it's beginnings
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -49,6 +66,8 @@
             <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols	
 ]]></description>
+            <content:encoded><![CDATA[A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols	
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -58,6 +77,8 @@
             <pubDate>Sun, 23 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study with a tropical snapshot thought balloon
 ]]></description>
+            <content:encoded><![CDATA[A portrait study with a tropical snapshot thought balloon
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -67,6 +88,8 @@
             <pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Dashboard camera, graphic clouds, and a diminished portrait study.
 ]]></description>
+            <content:encoded><![CDATA[Dashboard camera, graphic clouds, and a diminished portrait study.
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -76,6 +99,8 @@
             <pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. 
 ]]></description>
+            <content:encoded><![CDATA[A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. 
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -86,6 +111,9 @@
             <description><![CDATA[A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves
 
 ]]></description>
+            <content:encoded><![CDATA[A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves
+
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -95,6 +123,8 @@
             <pubDate>Sun, 08 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.
 ]]></description>
+            <content:encoded><![CDATA[A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
@@ -104,6 +134,8 @@
             <pubDate>Sat, 07 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Do you ever really look around at night? It's weird.
 ]]></description>
+            <content:encoded><![CDATA[Do you ever really look around at night? It's weird.
+]]></content:encoded>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
