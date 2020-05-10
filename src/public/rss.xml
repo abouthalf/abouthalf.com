@@ -4,7 +4,7 @@
         <title>Michael Barrett : Abouthalf.com</title>
         <link>https://abouthalf.com</link>
         <description>This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.</description>
-        <lastBuildDate>Sun, 12 Apr 2020 23:44:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 May 2020 00:48:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Michael's gnarled hands and brow sweat</generator>
         <language>en</language>
@@ -15,6 +15,17 @@
         </image>
         <copyright>All rights reserverd 2020 - Michael Barrett</copyright>
         <atom:link href="https://abouthalf.com/atom.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Too early for tomatoes]]></title>
+            <link>http://localhost:3000/p/2020/05/09</link>
+            <guid>http://localhost:3000/p/2020/05/09</guid>
+            <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies
+]]></description>
+            <content:encoded><![CDATA[It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
         <item>
             <title><![CDATA[15 new paintings]]></title>
             <link>http://localhost:3000/p/2020/04/05</link>
