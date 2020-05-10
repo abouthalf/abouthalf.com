@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import Blazy from "blazy";
 import slug from "slug";
-import Link from "next/link";
 import PostHeader from "../PostHeader";
+import Link from "next/link";
+import Draggable from "react-draggable";
+
 import placeholder from "../../lib/pixel";
 
-const MegaGram = ({
+const DeniedPortrait = ({
     index,
     title,
     description,
@@ -15,7 +17,7 @@ const MegaGram = ({
     day,
     path = "",
 }) => {
-    if (!Array.isArray(index)) return null;
+    const { portrait, mask } = index;
 
     let hash = slug(date);
     let postUrl = `/p/${year}/${month}/${day}`;
@@ -33,6 +35,9 @@ const MegaGram = ({
                     max-width: 1000px;
                 }
 
+                .gram:hover header {
+                    opacity: 1;
+                }
                 .grid {
                     max-width: 1000px;
                     display: flex;
@@ -78,4 +83,4 @@ const MegaGram = ({
     );
 };
 
-export default MegaGram;
+export default DeniedPortrait;
