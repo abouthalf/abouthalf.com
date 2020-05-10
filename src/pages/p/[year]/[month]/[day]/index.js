@@ -10,6 +10,7 @@ export default ({
     title,
     keywords = "",
     description = "",
+    thumbnail,
     date,
     type,
     year,
@@ -39,6 +40,16 @@ export default ({
         formattedDate,
     };
 
+    const socialProps = {
+        title,
+        description,
+        keywords,
+    };
+
+    if (thumbnail) {
+        socialProps.image = thumbnail;
+    }
+
     const renderComponent = props => {
         if (type === "MegaGram") {
             return <MegaGram {...props} />;
@@ -48,11 +59,7 @@ export default ({
 
     return (
         <article>
-            <SocialHeadMeta
-                title={title}
-                keywords={keywords}
-                description={description}
-            />
+            <SocialHeadMeta {...socialProps} />
             {renderComponent(componentProps)}
         </article>
     );
@@ -67,6 +74,15 @@ export async function getStaticProps({ params }) {
     );
     const idxContents = fs.readFileSync(idxPath);
     const idx = JSON.parse(idxContents);
+
+    let thumbPath = path.join(
+        process.cwd(),
+        `src/public/images/${year}/${month}/${day}/thumbnail.jpg`,
+    );
+    let thumbnail = "";
+    if (fs.existsSync(thumbPath)) {
+        thumbnail = `/images/${year}/${month}/${day}/thumbnail.jpg`;
+    }
 
     const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
         "app7EYyBtFZSDnzUQ",
@@ -93,6 +109,7 @@ export async function getStaticProps({ params }) {
             title,
             description,
             keywords,
+            thumbnail,
             date,
             type,
             idx,
