@@ -3,40 +3,52 @@ import path from "path";
 import Airtable from "airtable";
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import MegaGram from "../components/MegaGram";
+import DeniedPortrait from "../components/DeniedPortrait";
 
 export default ({ posts }) => {
     const renderPosts = posts => {
         return posts.map(post => {
-            const { type } = post;
-            if (type === "MegaGram") {
-                return renderMegaGram(post);
-            }
-            return null;
+            const {
+                date,
+                year,
+                month,
+                day,
+                title,
+                description,
+                index,
+                type,
+            } = post;
+            const d = new Date(date);
+            const formattedDate = d.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+            });
+            const path = `/images/${year}/${month}/${day}/`;
+            const props = {
+                key: date,
+                date: formattedDate,
+                index,
+                title,
+                description,
+                path,
+                year,
+                month,
+                day,
+            };
+            return getComponent(type, props);
         });
     };
 
-    const renderMegaGram = post => {
-        const { date, year, month, day, title, description, index } = post;
-        const d = new Date(date);
-        const formattedDate = d.toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-        });
-        const path = `/images/${year}/${month}/${day}/`;
-        return (
-            <MegaGram
-                key={date}
-                index={index}
-                title={title}
-                description={description}
-                date={formattedDate}
-                path={path}
-                year={year}
-                month={month}
-                day={day}
-            />
-        );
+    const getComponent = (type, props) => {
+        switch (type) {
+            case "MegaGram":
+                return <MegaGram {...props} />;
+            case "DeniedPortrait":
+                return <DeniedPortrait {...props} />;
+            default:
+                return null;
+        }
     };
 
     return (

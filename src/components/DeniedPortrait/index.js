@@ -1,10 +1,8 @@
 import { useEffect } from "react";
-import Blazy from "blazy";
 import slug from "slug";
+import Blazy from "blazy";
 import PostHeader from "../PostHeader";
-import Link from "next/link";
 import Draggable from "react-draggable";
-
 import placeholder from "../../lib/pixel";
 
 const DeniedPortrait = ({
@@ -27,41 +25,36 @@ const DeniedPortrait = ({
     });
 
     return (
-        <section id={hash} className="gram">
+        <section id={hash} className="denied-portrait">
             <style jsx>{`
-                .gram {
+                .denied-portrait {
                     position: relative;
                     margin: 0 auto;
                     max-width: 1000px;
                 }
 
-                .gram:hover header {
-                    opacity: 1;
-                }
-                .grid {
-                    max-width: 1000px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                .grid img {
-                    width: 33%;
-                    height: 33%;
+                .denied-portrait img.portrait {
                     display: block;
+                    user-select: none;
+                    width: 100%;
+                    object-fit: contain;
                 }
 
-                .b-lazy {
-                    opacity: 0;
-                    filter: blur(20px);
-                    transition: all 500ms;
+                .mask {
+                    width: 75%;
+                    height: 75%;
+                    position: absolute;
+                    top: 12.5%;
+                    left: 12.5%;
+                    background-image: url("${path}${mask}");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    cursor: move;
+                    user-select: none;
+                    z-index: 2;
                 }
-                .b-loaded {
-                    opacity: 1;
-                    filter: blur(0);
-                }
+
+               
             `}</style>
             <PostHeader
                 title={title}
@@ -69,16 +62,14 @@ const DeniedPortrait = ({
                 postUrl={postUrl}
                 date={date}
             />
-            <div className="grid">
-                {index.reverse().map((img, i) => (
-                    <img
-                        key={img}
-                        className="b-lazy"
-                        src={placeholder}
-                        data-src={`${path}${img}`}
-                    />
-                ))}
-            </div>
+            <Draggable bounds="parent">
+                <div className="mask"></div>
+            </Draggable>
+            <img
+                className="portrait b-lazy"
+                src={placeholder}
+                data-src={`${path}${portrait}`}
+            />
         </section>
     );
 };

@@ -12,7 +12,7 @@ export default ({ title, description, postUrl, date }) => {
                     top: 1rem;
                     left: 1rem;
                     color: white;
-                    z-index: 1;
+                    z-index: 99;
                     opacity: 0;
                     transition: all 500ms;
                 }

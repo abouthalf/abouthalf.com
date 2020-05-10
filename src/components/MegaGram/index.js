@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Blazy from "blazy";
 import slug from "slug";
-import Link from "next/link";
 import PostHeader from "../PostHeader";
 import placeholder from "../../lib/pixel";
 

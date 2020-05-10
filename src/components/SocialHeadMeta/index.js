@@ -1,11 +1,12 @@
 import Head from "next/head";
 
 const host = process.env.URL;
+const defaultThumbnail = "/thumbnail.jpg";
 
 export default ({
     title = "Michael Barrett @ Abouthalf.com",
     description = "An art journal",
-    image = "/thumbnail.jpg",
+    image,
     keywords = "art netart painting drawing",
     url = "",
 }) => {
@@ -16,7 +17,10 @@ export default ({
             <meta name="keywords" content={keywords} />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={`${host}${image}`} />
+            <meta
+                property="og:image"
+                content={`${host}${image || defaultThumbnail}`}
+            />
             <meta property="og:url" content={`${host}${url}`} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta

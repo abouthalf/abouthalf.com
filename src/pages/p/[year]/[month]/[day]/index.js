@@ -2,6 +2,7 @@ import Airtable from "airtable";
 
 import SocialHeadMeta from "../../../../../components/SocialHeadMeta";
 import MegaGram from "../../../../../components/MegaGram";
+import DeniedPortrait from "../../../../../components/DeniedPortrait";
 
 import fs from "fs";
 import path from "path";
@@ -44,17 +45,18 @@ export default ({
         title,
         description,
         keywords,
+        image: thumbnail,
     };
 
-    if (thumbnail) {
-        socialProps.image = thumbnail;
-    }
-
     const renderComponent = props => {
-        if (type === "MegaGram") {
-            return <MegaGram {...props} />;
+        switch (props.type) {
+            case "MegaGram":
+                return <MegaGram {...props} />;
+            case "DeniedPortrait":
+                return <DeniedPortrait {...props} />;
+            default:
+                return null;
         }
-        return null;
     };
 
     return (
