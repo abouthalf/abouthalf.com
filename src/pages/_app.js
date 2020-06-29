@@ -99,7 +99,7 @@ class Layout extends React.Component {
                         line-height: 1.5;
                         margin-bottom: 1.5rem;
 
-                        font-family: "IBM Plex Sans Condensed", sans-serif;
+                        font-family: "IBM Plex Serif", serif;
                         font-weight: lighter;
                         letter-spacing: 1px;
                     }
@@ -109,7 +109,7 @@ class Layout extends React.Component {
                         line-height: 1.5;
                         margin-bottom: 1rem;
 
-                        font-family: "IBM Plex Sans Condensed", sans-serif;
+                        font-family: "IBM Plex Serif", serif;
                         font-weight: lighter;
                         letter-spacing: 1px;
                     }

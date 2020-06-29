@@ -14,6 +14,10 @@ I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript ed
 
 This site is a static website, created using the NextJS and ReactJS frameworks and hosted at Netlify. It should work reasonably well in modern browsers.
 
+## Contact
+
+You can reach me via email _mb @ abouthalf.com_.
+
 ## Elsewhere
 
 -   I have a seldom used Twitter: https://twitter.com/abouthalf
