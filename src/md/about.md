@@ -21,5 +21,5 @@ You can reach me via email _mb @ abouthalf.com_.
 ## Elsewhere
 
 -   I have a seldom used Twitter: https://twitter.com/abouthalf
--   I keep a newsletter: https://tinyletter.com/abouthalf
+-   I keep a newsletter: https://abouthalf.substack.com
 -   I use Instagram as a playground: https://www.instagram.com/abouthalf/

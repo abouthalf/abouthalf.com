@@ -209,7 +209,7 @@ class Layout extends React.Component {
                         </a>
                         <a
                             target="_blank"
-                            href="https://tinyletter.com/abouthalf">
+                            href="https://abouthalf.substack.com">
                             Newsletter
                         </a>
                     </nav>
