@@ -16,7 +16,7 @@ This site is a static website, created using the NextJS and ReactJS frameworks a
 
 I keep a newsletter at Substack. I perodically write about my art, work, life, and stuff I like.
 
-<iframe src="https://abouthalf.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://abouthalf.substack.com/embed" width="480" height="320" frameBorder="0" scrolling="no"></iframe>
 
 ## Following
 

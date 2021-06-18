@@ -60,6 +60,8 @@ const Home = ({ posts }) => {
     );
 };
 
+export default Home;
+
 export async function getStaticProps() {
     const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
         "app7EYyBtFZSDnzUQ",
@@ -104,5 +106,3 @@ export async function getStaticProps() {
         },
     };
 }
-
-export default Home;
