@@ -1,9 +1,6 @@
-import { useEffect } from "react";
 import slug from "slug";
-import Blazy from "blazy";
 import PostHeader from "../PostHeader";
 import Draggable from "react-draggable";
-import placeholder from "../../lib/pixel";
 
 const DeniedPortrait = ({
     index,
@@ -17,12 +14,17 @@ const DeniedPortrait = ({
 }) => {
     const { portrait, mask } = index;
 
+    const allMasks = Array.isArray(mask) ? mask : [mask];
+
+    const sources = allMasks.map(mask => {
+        const type = mask.split(".")[1];
+        return (<source key={mask} srcSet={`${path}${mask}`} type={`image/${type}`} />)
+    });
+
+    const fallback = allMasks.slice(-1)[0];
+
     let hash = slug(date);
     let postUrl = `/p/${year}/${month}/${day}`;
-
-    useEffect(() => {
-        let b = new Blazy();
-    });
 
     return (
         <section id={hash} className="denied-portrait">
@@ -30,14 +32,13 @@ const DeniedPortrait = ({
                 .denied-portrait {
                     position: relative;
                     margin: 0 auto;
-                    max-width: 1000px;
                 }
 
-                .denied-portrait img.portrait {
+                img.portrait {
                     display: block;
                     user-select: none;
                     width: 100%;
-                    object-fit: contain;
+                    height: auto;
                 }
 
                 .mask {
@@ -46,14 +47,18 @@ const DeniedPortrait = ({
                     position: absolute;
                     top: 12.5%;
                     left: 12.5%;
-                    background-image: url("${path}${mask}");
-                    background-repeat: no-repeat;
-                    background-size: contain;
                     cursor: move;
                     user-select: none;
                     z-index: 2;
                 }
 
+                picture, img {
+                    display: block;
+                    user-select: none;
+                    pointer-events: none;
+                    width: 100%;
+                    object-fit: contain;
+                }
                
             `}</style>
             <PostHeader
@@ -63,13 +68,20 @@ const DeniedPortrait = ({
                 date={date}
             />
             <Draggable bounds="parent">
-                <div className="mask"></div>
+                <div className="mask">
+                    <picture  >
+                        {sources.map(source => source)}
+                        <img src={`${path}${fallback}`} alt="" />
+                    </picture>
+                </div>
             </Draggable>
             <img
-                className="portrait b-lazy"
-                src={placeholder}
-                data-src={`${path}${portrait}`}
-            />
+                className="portrait"
+                loading="lazy"
+                width="2000"
+                height="2000"
+                alt=""
+                src={`${path}${portrait}`} />
         </section>
     );
 };

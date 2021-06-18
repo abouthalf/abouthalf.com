@@ -52,7 +52,13 @@ export default ({ posts }) => {
     };
 
     return (
-        <article>
+        <article className="home">
+            <style jsx>{`
+                .home {
+                    max-width: 2000px;
+                    margin: 0 auto;
+                }
+                `}</style>
             <SocialHeadMeta />
             {renderPosts(posts)}
         </article>

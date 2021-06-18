@@ -1,8 +1,4 @@
-# This is an art journal
-
-This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures. I cross post this grid on Instagram.
-
-## Hi, I'm Michael Barrett
+# Hi, I'm Michael Barrett
 
 I completed a Master of Fine Arts at the University of North Carolina at Greensboro. I found my way into a software development career, working primarily as a front-end engineer but also working with web service and API development in Java, C#, and Python.
 
@@ -12,14 +8,18 @@ I prefer [VisualStudio Code](https://code.visualstudio.com/) as my JavaScript ed
 
 ## This site
 
+This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures. I cross post this grid on Instagram.
+
 This site is a static website, created using the NextJS and ReactJS frameworks and hosted at Netlify. It should work reasonably well in modern browsers.
 
-## Contact
+## Newsletter
 
-You can reach me via email _mb @ abouthalf.com_.
+I keep a newsletter at Substack. I perodically write about my art, work, life, and stuff I like.
 
-## Elsewhere
+<iframe src="https://abouthalf.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe>
 
--   I have a seldom used Twitter: https://twitter.com/abouthalf
--   I keep a newsletter: https://abouthalf.substack.com
+## Following
+
+-   I don't tweet much: https://twitter.com/abouthalf
 -   I use Instagram as a playground: https://www.instagram.com/abouthalf/
+-   LinkedIn is a thing which exists: https://www.linkedin.com/in/abouthalf/

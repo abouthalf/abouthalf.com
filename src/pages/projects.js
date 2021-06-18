@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Article from "../components/Article";
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import Document from "../md/projects.md";
 
@@ -19,23 +19,9 @@ const components = {
 
 export default () => {
     return (
-        <article className="article">
-            <style jsx global>{`
-                .article h2 a {
-                    color: inherit;
-                }
-                img {
-                    width: 100%;
-                    margin: 0 auto 2rem auto;
-                }
-
-                hr {
-                    margin: 4rem 0;
-                    border: 1px solid #ccc;
-                }
-            `}</style>
+        <Article>
             <SocialHeadMeta title="Projects" description={metaDescription} />
             <Document components={components} />
-        </article>
+        </Article>
     );
 };

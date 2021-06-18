@@ -2,8 +2,6 @@ import React from "react";
 import Head from "next/head";
 import App from "next/app";
 
-import { link as anchorColor } from "../lib/colors";
-
 class Layout extends React.Component {
     render() {
         return (
@@ -75,55 +73,15 @@ class Layout extends React.Component {
                         margin: 0;
                         padding: 0;
 
-                        background-color: #333;
-                        color: #fff;
+                        background-color: #fff;
+                        color: #333;
 
                         font-size: 16px;
                         font-family: "IBM Plex Serif", serif;
-                        color: #5bbad5;
                     }
 
                     img {
                         display: block;
-                    }
-
-                    .article {
-                        background: #eee;
-                        padding: 2rem;
-                        margin: 7rem 0 0 0;
-
-                        color: #222;
-                    }
-                    .article h1 {
-                        font-size: 3rem;
-                        line-height: 1.5;
-                        margin-bottom: 1.5rem;
-
-                        font-family: "IBM Plex Serif", serif;
-                        font-weight: lighter;
-                        letter-spacing: 1px;
-                    }
-
-                    .article h2 {
-                        font-size: 2rem;
-                        line-height: 1.5;
-                        margin-bottom: 1rem;
-
-                        font-family: "IBM Plex Serif", serif;
-                        font-weight: lighter;
-                        letter-spacing: 1px;
-                    }
-
-                    .article a {
-                        color: ${anchorColor};
-                        font-weight: normal;
-                        text-decoration: none;
-                    }
-
-                    .article a:hover,
-                    .article a:active {
-                        color: white;
-                        background-color: black;
                     }
 
                     section + .article {
@@ -153,18 +111,30 @@ class Layout extends React.Component {
                 `}</style>
                 <style jsx>{`
                     .masthead {
-                        margin: 0 auto;
-                        max-width: 50%;
+                        margin: 0;
+                        width: 100vw;
+                        position: fixed;
+                        bottom: 0;
+                        left: 0;
+                        z-index: 99;
+                        background-color: rgba(0, 0, 0, 0.6);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-content: center;
                     }
                     .logo {
                         position: relative;
                         padding: 0;
-                        margin: 1rem 0;
-                        font-size: 1rem;
+                        margin: 0;
+                        font-size: inherit;
                         text-align: center;
                     }
                     .logo img {
-                        display: block;
+                        display: inline;
+                        vertical-align: middle;
+                        height: 48px;
+                        mix-blend-mode: difference;
                     }
                     .logo span {
                         position: absolute;
@@ -174,12 +144,14 @@ class Layout extends React.Component {
                     }
 
                     .masthead nav {
+                        
                         margin: 1rem 0;
                         text-align: center;
                     }
 
                     .masthead a {
-                        color: #fff;
+                        color: white;
+                        mix-blend-mode: difference;
                         font-weight: normal;
                         text-decoration: none;
                         display: inline-block;
@@ -187,42 +159,43 @@ class Layout extends React.Component {
                         line-height: 3;
                         margin: 0 1rem;
                     }
-                    .masthead a:hover {
-                        background: transparent;
-                    }
                 `}</style>
                 <style jsx>{`
                     @media screen and (max-width: 768px) {
                         .masthead {
                             max-width: none;
                         }
+
+                        .masthead a.home {
+                            display: block;
+                        }
+
+                        .logo img {
+                            height: 32px;
+                            margin: 0;
+                        }
                     }
                 `}</style>
                 <header className="masthead">
                     <nav>
+                        <a href="/" className="home">
+                            <h1 className="logo">
+                                <img
+                                    src="/logo-white-small.svg"
+                                    width="100"
+                                    alt=""
+                                />
+                                <span>Home</span>
+                            </h1>
+                        </a>
                         <a href="/about">About</a>
                         <a href="/projects">Projects</a>
-                        <a
-                            target="_blank"
-                            href="https://www.instagram.com/abouthalf/">
-                            Instagram
-                        </a>
                         <a
                             target="_blank"
                             href="https://abouthalf.substack.com">
                             Newsletter
                         </a>
                     </nav>
-                    <h1 className="logo">
-                        <a href="/">
-                            <img
-                                src="/logo-white-small.svg"
-                                width="100"
-                                alt=""
-                            />
-                            <span>michael barrett @ abouthalf.com</span>
-                        </a>
-                    </h1>
                 </header>
                 {this.props.children}
             </main>
