@@ -3,7 +3,7 @@ import Head from "next/head";
 const host = process.env.URL;
 const defaultThumbnail = "/thumbnail.jpg";
 
-export default ({
+const SocialHeadMeta = ({
     title = "Michael Barrett @ Abouthalf.com",
     description = "An art journal",
     image,
@@ -31,3 +31,5 @@ export default ({
         </Head>
     );
 };
+
+export default SocialHeadMeta;

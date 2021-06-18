@@ -3,11 +3,12 @@ import Airtable from "airtable";
 import SocialHeadMeta from "../../../../../components/SocialHeadMeta";
 import MegaGram from "../../../../../components/MegaGram";
 import DeniedPortrait from "../../../../../components/DeniedPortrait";
+import Page from "../../../../../components/Page"
 
 import fs from "fs";
 import path from "path";
 
-export default ({
+const ByDate = ({
     title,
     keywords = "",
     description = "",
@@ -60,10 +61,10 @@ export default ({
     };
 
     return (
-        <article>
+        <Page>
             <SocialHeadMeta {...socialProps} />
             {renderComponent(componentProps)}
-        </article>
+        </Page>
     );
 };
 
@@ -147,3 +148,5 @@ export async function getStaticPaths() {
         fallback: false,
     };
 }
+
+export default ByDate;

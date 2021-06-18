@@ -1,7 +1,7 @@
 
 import { link as anchorColor } from "../../lib/colors";
 
-export default ({ children }) => (
+const Article = ({ children }) => (
     <article className="article">
         <style jsx global>{`
             .article {
@@ -63,3 +63,5 @@ export default ({ children }) => (
         {children}
     </article>
 );
+
+export default Article;

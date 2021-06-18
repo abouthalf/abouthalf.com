@@ -17,7 +17,7 @@ const components = {
     a: NewWindow,
 };
 
-export default () => {
+const Projects = () => {
     return (
         <Article>
             <SocialHeadMeta title="Projects" description={metaDescription} />
@@ -25,3 +25,5 @@ export default () => {
         </Article>
     );
 };
+
+export default Projects;

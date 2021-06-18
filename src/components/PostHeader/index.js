@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default ({ title, description, postUrl, date }) => {
+const PostHeader = ({ title, description, postUrl, date }) => {
     return (
         <header>
             <style jsx>{`
@@ -49,3 +49,5 @@ export default ({ title, description, postUrl, date }) => {
         </header>
     );
 };
+
+export default PostHeader;

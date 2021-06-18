@@ -4,8 +4,9 @@ import Airtable from "airtable";
 import SocialHeadMeta from "../components/SocialHeadMeta";
 import MegaGram from "../components/MegaGram";
 import DeniedPortrait from "../components/DeniedPortrait";
+import Page from "../components/Page";
 
-export default ({ posts }) => {
+const Home = ({ posts }) => {
     const renderPosts = posts => {
         return posts.map(post => {
             const {
@@ -52,16 +53,10 @@ export default ({ posts }) => {
     };
 
     return (
-        <article className="home">
-            <style jsx>{`
-                .home {
-                    max-width: 2000px;
-                    margin: 0 auto;
-                }
-                `}</style>
+        <Page>
             <SocialHeadMeta />
             {renderPosts(posts)}
-        </article>
+        </Page>
     );
 };
 
@@ -109,3 +104,5 @@ export async function getStaticProps() {
         },
     };
 }
+
+export default Home;
