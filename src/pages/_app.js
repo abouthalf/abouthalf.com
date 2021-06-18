@@ -153,18 +153,25 @@ class Layout extends React.Component {
                 `}</style>
                 <style jsx>{`
                     .masthead {
-                        margin: 0 auto;
-                        max-width: 50%;
+                        margin: 0;
+                        width: 768px;
+                        position: fixed;
+                        bottom: 0;
+                        left: 50%;
+                        z-index: 99;
                     }
                     .logo {
                         position: relative;
                         padding: 0;
-                        margin: 1rem 0;
-                        font-size: 1rem;
+                        margin: 0;
+                        font-size: inherit;
                         text-align: center;
                     }
                     .logo img {
-                        display: block;
+                        display: inline;
+                        vertical-align: middle;
+                        height: 48px;
+                        mix-blend-mode: difference;
                     }
                     .logo span {
                         position: absolute;
@@ -174,21 +181,21 @@ class Layout extends React.Component {
                     }
 
                     .masthead nav {
+                        position: relative;
+                        left: -50%;
                         margin: 1rem 0;
                         text-align: center;
                     }
 
                     .masthead a {
-                        color: #fff;
+                        color: white;
+                        mix-blend-mode: difference;
                         font-weight: normal;
                         text-decoration: none;
                         display: inline-block;
                         text-transform: lowercase;
                         line-height: 3;
                         margin: 0 1rem;
-                    }
-                    .masthead a:hover {
-                        background: transparent;
                     }
                 `}</style>
                 <style jsx>{`
@@ -200,6 +207,16 @@ class Layout extends React.Component {
                 `}</style>
                 <header className="masthead">
                     <nav>
+                        <a href="/">
+                            <h1 className="logo">
+                                <img
+                                    src="/logo-white-small.svg"
+                                    width="100"
+                                    alt=""
+                                />
+                                <span>michael barrett @ abouthalf.com</span>
+                            </h1>
+                        </a>
                         <a href="/about">About</a>
                         <a href="/projects">Projects</a>
                         <a
@@ -213,7 +230,7 @@ class Layout extends React.Component {
                             Newsletter
                         </a>
                     </nav>
-                    <h1 className="logo">
+                    {/* <h1 className="logo">
                         <a href="/">
                             <img
                                 src="/logo-white-small.svg"
@@ -222,7 +239,7 @@ class Layout extends React.Component {
                             />
                             <span>michael barrett @ abouthalf.com</span>
                         </a>
-                    </h1>
+                    </h1> */}
                 </header>
                 {this.props.children}
             </main>

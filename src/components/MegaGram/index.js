@@ -1,8 +1,6 @@
 import { useEffect } from "react";
-import Blazy from "blazy";
 import slug from "slug";
 import PostHeader from "../PostHeader";
-import placeholder from "../../lib/pixel";
 
 const MegaGram = ({
     index,
@@ -29,11 +27,10 @@ const MegaGram = ({
                 .gram {
                     position: relative;
                     margin: 0 auto;
-                    max-width: 1000px;
+                    width: 100%
                 }
 
                 .grid {
-                    max-width: 1000px;
                     display: flex;
                     flex-wrap: wrap;
                     flex-direction: row;
@@ -42,8 +39,8 @@ const MegaGram = ({
                 }
 
                 .grid img {
-                    width: 33%;
-                    height: 33%;
+                    width: 33.33%;
+                    height: 33.33%;
                     display: block;
                 }
 
@@ -67,9 +64,8 @@ const MegaGram = ({
                 {index.reverse().map((img, i) => (
                     <img
                         key={img}
-                        className="b-lazy"
-                        src={placeholder}
-                        data-src={`${path}${img}`}
+                        src={`${path}${img}`}
+                        loading="lazy"
                     />
                 ))}
             </div>
