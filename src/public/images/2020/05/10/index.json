@@ -1,4 +1,7 @@
 {
     "portrait": "portrait.jpg",
-    "mask": "mater.png"
+    "mask": [
+        "mater.webp",
+        "mater.png"
+    ]
 }

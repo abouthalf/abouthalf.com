@@ -2,7 +2,7 @@
 
 I think a digital painting can be more than pixels on a screen. It can be responsive, filling its rectangular container. It can respond to your touch or your mouse. I like to experiment with digital paintings-as-websites which are slightly interactive.
 
-These projects should work reasonably well in most modern web browsers, excluding Microsoft Edge.
+These projects should work reasonably well in most modern web browsers.
 
 ## [Shtacks](http://shtacks.com)
 

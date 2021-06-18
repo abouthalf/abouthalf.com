@@ -39,16 +39,6 @@ const MegaGram = ({
                     height: 33.33%;
                     display: block;
                 }
-
-                .b-lazy {
-                    opacity: 0;
-                    filter: blur(20px);
-                    transition: all 500ms;
-                }
-                .b-loaded {
-                    opacity: 1;
-                    filter: blur(0);
-                }
             `}</style>
             <PostHeader
                 title={title}
@@ -60,6 +50,8 @@ const MegaGram = ({
                 {index.reverse().map((img, i) => (
                     <img
                         key={img}
+                        width="900"
+                        height="900"
                         src={`${path}${img}`}
                         loading="lazy"
                     />
