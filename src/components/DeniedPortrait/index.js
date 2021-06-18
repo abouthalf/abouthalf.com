@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import slug from "slug";
-import Blazy from "blazy";
 import PostHeader from "../PostHeader";
 import Draggable from "react-draggable";
-import placeholder from "../../lib/pixel";
 
 const DeniedPortrait = ({
     index,
@@ -30,7 +28,7 @@ const DeniedPortrait = ({
                 .denied-portrait {
                     position: relative;
                     margin: 0 auto;
-                    max-width: 1000px;
+                    width: 100%;
                 }
 
                 .denied-portrait img.portrait {
@@ -66,10 +64,9 @@ const DeniedPortrait = ({
                 <div className="mask"></div>
             </Draggable>
             <img
-                className="portrait b-lazy"
-                src={placeholder}
-                data-src={`${path}${portrait}`}
-            />
+                className="portrait"
+                loading="lazy"
+                src={`${path}${portrait}`} />
         </section>
     );
 };
