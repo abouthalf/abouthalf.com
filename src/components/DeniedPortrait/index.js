@@ -18,10 +18,6 @@ const DeniedPortrait = ({
     let hash = slug(date);
     let postUrl = `/p/${year}/${month}/${day}`;
 
-    useEffect(() => {
-        let b = new Blazy();
-    });
-
     return (
         <section id={hash} className="denied-portrait">
             <style jsx>{`

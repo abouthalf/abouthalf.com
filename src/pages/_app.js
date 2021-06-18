@@ -154,11 +154,16 @@ class Layout extends React.Component {
                 <style jsx>{`
                     .masthead {
                         margin: 0;
-                        width: 768px;
+                        width: 100vw;
                         position: fixed;
                         bottom: 0;
-                        left: 50%;
+                        left: 0;
                         z-index: 99;
+                        background-color: rgba(0, 0, 0, 0.6);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-content: center;
                     }
                     .logo {
                         position: relative;
@@ -181,8 +186,7 @@ class Layout extends React.Component {
                     }
 
                     .masthead nav {
-                        position: relative;
-                        left: -50%;
+                        
                         margin: 1rem 0;
                         text-align: center;
                     }
@@ -221,25 +225,10 @@ class Layout extends React.Component {
                         <a href="/projects">Projects</a>
                         <a
                             target="_blank"
-                            href="https://www.instagram.com/abouthalf/">
-                            Instagram
-                        </a>
-                        <a
-                            target="_blank"
                             href="https://abouthalf.substack.com">
                             Newsletter
                         </a>
                     </nav>
-                    {/* <h1 className="logo">
-                        <a href="/">
-                            <img
-                                src="/logo-white-small.svg"
-                                width="100"
-                                alt=""
-                            />
-                            <span>michael barrett @ abouthalf.com</span>
-                        </a>
-                    </h1> */}
                 </header>
                 {this.props.children}
             </main>

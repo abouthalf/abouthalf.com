@@ -17,10 +17,6 @@ const MegaGram = ({
     let hash = slug(date);
     let postUrl = `/p/${year}/${month}/${day}`;
 
-    useEffect(() => {
-        let b = new Blazy();
-    });
-
     return (
         <section id={hash} className="gram">
             <style jsx>{`
