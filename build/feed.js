@@ -76,15 +76,15 @@ async function main() {
     });
 
     fs.writeFileSync(
-        path.join(process.cwd(), "/src/public/rss.xml"),
+        path.join(process.cwd(), "/public/rss.xml"),
         feed.rss2(),
     );
     fs.writeFileSync(
-        path.join(process.cwd(), "/src/public/atom.xml"),
+        path.join(process.cwd(), "/public/atom.xml"),
         feed.atom1(),
     );
     fs.writeFileSync(
-        path.join(process.cwd(), "/src/public/feed.json"),
+        path.join(process.cwd(), "/public/feed.json"),
         feed.json1(),
     );
 }

@@ -8,6 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@mdx-js/loader": "^1.5.3",
+        "@netlify/plugin-nextjs": "^3.4.2",
         "@next/mdx": "^9.1.6",
         "airtable": "^0.8.1",
         "dotenv": "^8.2.0",
@@ -20,13 +21,14 @@
         "react-dom": "^17.0.2",
         "react-draggable": "^4.3.1",
         "remark-images": "0.16.1",
-        "slug": "^2.1.0"
+        "slug": "^2.1.0",
+        "webp-loader": "^0.6.0"
     },
     "scripts": {
-        "dev": "next src",
-        "build": "next build src",
-        "start": "next start src",
-        "feed": "node ./src/build/feed.js",
+        "dev": "next",
+        "build": "npm run feed && next build",
+        "start": "next start",
+        "feed": "node ./build/feed.js",
         "telemetry": "next telemetry disable",
         "export": "yarn run feed && next telemetry disable && next build src && next export src -o published"
     }

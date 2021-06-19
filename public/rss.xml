@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Michael Barrett : Abouthalf.com</title>
         <link>https://abouthalf.com</link>
         <description>This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.</description>
-        <lastBuildDate>Sun, 10 May 2020 00:48:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Jun 2021 20:34:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Michael's gnarled hands and brow sweat</generator>
         <language>en</language>
@@ -13,12 +13,108 @@
             <url>https://abouthalf.com/thumbnail.jpg</url>
             <link>https://abouthalf.com</link>
         </image>
-        <copyright>All rights reserverd 2020 - Michael Barrett</copyright>
-        <atom:link href="https://abouthalf.com/atom.xml" rel="self" type="application/rss+xml"/>
+        <copyright>All rights reserverd 2021 - Michael Barrett</copyright>
+        <atom:link href="https://abouthalf.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Flamingo Poppies]]></title>
+            <link>http://localhost:3000//p/2021/06/18</link>
+            <guid>http://localhost:3000//p/2021/06/18</guid>
+            <pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Springtime walks with the pup present poppies and flocks of flamingos
+]]></description>
+            <content:encoded><![CDATA[Springtime walks with the pup present poppies and flocks of flamingos
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Lilac and Lavendar]]></title>
+            <link>http://localhost:3000//p/2021/05/12</link>
+            <guid>http://localhost:3000//p/2021/05/12</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells
+]]></description>
+            <content:encoded><![CDATA[Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Buoy]]></title>
+            <link>http://localhost:3000//p/2021/04/04</link>
+            <guid>http://localhost:3000//p/2021/04/04</guid>
+            <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Buoyed by spring flowers.
+ 
+]]></description>
+            <content:encoded><![CDATA[Buoyed by spring flowers.
+ 
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Coastal Weather]]></title>
+            <link>http://localhost:3000//p/2021/03/04</link>
+            <guid>http://localhost:3000//p/2021/03/04</guid>
+            <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A portrait study overlaid with images of the Oregon coast
+
+]]></description>
+            <content:encoded><![CDATA[A portrait study overlaid with images of the Oregon coast
+
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Dandelions]]></title>
+            <link>http://localhost:3000//p/2021/02/01</link>
+            <guid>http://localhost:3000//p/2021/02/01</guid>
+            <pubDate>Mon, 01 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wintertime thinking about springtime dandelions
+
+]]></description>
+            <content:encoded><![CDATA[Wintertime thinking about springtime dandelions
+
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Harlequin]]></title>
+            <link>http://localhost:3000//p/2021/01/18</link>
+            <guid>http://localhost:3000//p/2021/01/18</guid>
+            <pubDate>Mon, 18 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A portrait study interlaced with floral snapshots
+]]></description>
+            <content:encoded><![CDATA[A portrait study interlaced with floral snapshots
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Street Meat]]></title>
+            <link>http://localhost:3000//p/2020/06/21</link>
+            <guid>http://localhost:3000//p/2020/06/21</guid>
+            <pubDate>Sun, 21 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12"x 18" acrylic and inkjet on canvas
+
+]]></description>
+            <content:encoded><![CDATA[One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12"x 18" acrylic and inkjet on canvas
+
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
+        <item>
+            <title><![CDATA[Denied Portrait]]></title>
+            <link>http://localhost:3000//p/2020/05/10</link>
+            <guid>http://localhost:3000//p/2020/05/10</guid>
+            <pubDate>Sun, 10 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[A tomato-red turtleneck sweater
+]]></description>
+            <content:encoded><![CDATA[A tomato-red turtleneck sweater
+]]></content:encoded>
+            <author>mb@abouthalf.com (Michael Barrett)</author>
+        </item>
         <item>
             <title><![CDATA[Too early for tomatoes]]></title>
-            <link>http://localhost:3000/p/2020/05/09</link>
-            <guid>http://localhost:3000/p/2020/05/09</guid>
+            <link>http://localhost:3000//p/2020/05/09</link>
+            <guid>http://localhost:3000//p/2020/05/09</guid>
             <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies
 ]]></description>
@@ -28,8 +124,8 @@
         </item>
         <item>
             <title><![CDATA[15 new paintings]]></title>
-            <link>http://localhost:3000/p/2020/04/05</link>
-            <guid>http://localhost:3000/p/2020/04/05</guid>
+            <link>http://localhost:3000//p/2020/04/05</link>
+            <guid>http://localhost:3000//p/2020/04/05</guid>
             <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[15 new paintings - 12" by 12" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.
 ]]></description>
@@ -39,8 +135,8 @@
         </item>
         <item>
             <title><![CDATA[Spring Forward]]></title>
-            <link>http://localhost:3000/p/2020/04/04</link>
-            <guid>http://localhost:3000/p/2020/04/04</guid>
+            <link>http://localhost:3000//p/2020/04/04</link>
+            <guid>http://localhost:3000//p/2020/04/04</guid>
             <pubDate>Sat, 04 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.
 ]]></description>
@@ -50,8 +146,8 @@
         </item>
         <item>
             <title><![CDATA[When life gives you lemons make concrete 🍋]]></title>
-            <link>http://localhost:3000/p/2020/03/29</link>
-            <guid>http://localhost:3000/p/2020/03/29</guid>
+            <link>http://localhost:3000//p/2020/03/29</link>
+            <guid>http://localhost:3000//p/2020/03/29</guid>
             <pubDate>Sun, 29 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO
 ]]></description>
@@ -61,8 +157,8 @@
         </item>
         <item>
             <title><![CDATA[Recapitulated with squares]]></title>
-            <link>http://localhost:3000/p/2020/03/01</link>
-            <guid>http://localhost:3000/p/2020/03/01</guid>
+            <link>http://localhost:3000//p/2020/03/01</link>
+            <guid>http://localhost:3000//p/2020/03/01</guid>
             <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad which seems to be remembering it's beginnings
 ]]></description>
@@ -72,8 +168,8 @@
         </item>
         <item>
             <title><![CDATA[Bundle up, it’s raining]]></title>
-            <link>http://localhost:3000/p/2020/02/24</link>
-            <guid>http://localhost:3000/p/2020/02/24</guid>
+            <link>http://localhost:3000//p/2020/02/24</link>
+            <guid>http://localhost:3000//p/2020/02/24</guid>
             <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols	
 ]]></description>
@@ -83,8 +179,8 @@
         </item>
         <item>
             <title><![CDATA[Cold front followed by tropical thought balloons.]]></title>
-            <link>http://localhost:3000/p/2020/02/23</link>
-            <guid>http://localhost:3000/p/2020/02/23</guid>
+            <link>http://localhost:3000//p/2020/02/23</link>
+            <guid>http://localhost:3000//p/2020/02/23</guid>
             <pubDate>Sun, 23 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study with a tropical snapshot thought balloon
 ]]></description>
@@ -94,8 +190,8 @@
         </item>
         <item>
             <title><![CDATA[Finally some sun in Portland]]></title>
-            <link>http://localhost:3000/p/2020/02/01</link>
-            <guid>http://localhost:3000/p/2020/02/01</guid>
+            <link>http://localhost:3000//p/2020/02/01</link>
+            <guid>http://localhost:3000//p/2020/02/01</guid>
             <pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Dashboard camera, graphic clouds, and a diminished portrait study.
 ]]></description>
@@ -105,8 +201,8 @@
         </item>
         <item>
             <title><![CDATA[Overlapping idealizations]]></title>
-            <link>http://localhost:3000/p/2020/01/20</link>
-            <guid>http://localhost:3000/p/2020/01/20</guid>
+            <link>http://localhost:3000//p/2020/01/20</link>
+            <guid>http://localhost:3000//p/2020/01/20</guid>
             <pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. 
 ]]></description>
@@ -116,8 +212,8 @@
         </item>
         <item>
             <title><![CDATA[Sweater weather. Portrait study from a Uniqlo advertisement.]]></title>
-            <link>http://localhost:3000/p/2019/12/14</link>
-            <guid>http://localhost:3000/p/2019/12/14</guid>
+            <link>http://localhost:3000//p/2019/12/14</link>
+            <guid>http://localhost:3000//p/2019/12/14</guid>
             <pubDate>Sat, 14 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves
 
@@ -129,8 +225,8 @@
         </item>
         <item>
             <title><![CDATA[Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.]]></title>
-            <link>http://localhost:3000/p/2019/12/08</link>
-            <guid>http://localhost:3000/p/2019/12/08</guid>
+            <link>http://localhost:3000//p/2019/12/08</link>
+            <guid>http://localhost:3000//p/2019/12/08</guid>
             <pubDate>Sun, 08 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.
 ]]></description>
@@ -140,8 +236,8 @@
         </item>
         <item>
             <title><![CDATA[Late night, walking the dog]]></title>
-            <link>http://localhost:3000/p/2019/12/07</link>
-            <guid>http://localhost:3000/p/2019/12/07</guid>
+            <link>http://localhost:3000//p/2019/12/07</link>
+            <guid>http://localhost:3000//p/2019/12/07</guid>
             <pubDate>Sat, 07 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Do you ever really look around at night? It's weird.
 ]]></description>
@@ -151,92 +247,92 @@
         </item>
         <item>
             <title><![CDATA[Trains, trees, windswept]]></title>
-            <link>http://localhost:3000/p/2019/11/14</link>
-            <guid>http://localhost:3000/p/2019/11/14</guid>
+            <link>http://localhost:3000//p/2019/11/14</link>
+            <guid>http://localhost:3000//p/2019/11/14</guid>
             <pubDate>Thu, 14 Nov 2019 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Eggs over Brighton]]></title>
-            <link>http://localhost:3000/p/2019/11/10</link>
-            <guid>http://localhost:3000/p/2019/11/10</guid>
+            <link>http://localhost:3000//p/2019/11/10</link>
+            <guid>http://localhost:3000//p/2019/11/10</guid>
             <pubDate>Sun, 10 Nov 2019 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Boy looking over shoulder]]></title>
-            <link>http://localhost:3000/p/2019/01/04</link>
-            <guid>http://localhost:3000/p/2019/01/04</guid>
+            <link>http://localhost:3000//p/2019/01/04</link>
+            <guid>http://localhost:3000//p/2019/01/04</guid>
             <pubDate>Fri, 04 Jan 2019 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Portrait study with eggs]]></title>
-            <link>http://localhost:3000/p/2018/10/28</link>
-            <guid>http://localhost:3000/p/2018/10/28</guid>
+            <link>http://localhost:3000//p/2018/10/28</link>
+            <guid>http://localhost:3000//p/2018/10/28</guid>
             <pubDate>Sun, 28 Oct 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Autumn landed with a thunk]]></title>
-            <link>http://localhost:3000/p/2018/10/20</link>
-            <guid>http://localhost:3000/p/2018/10/20</guid>
+            <link>http://localhost:3000//p/2018/10/20</link>
+            <guid>http://localhost:3000//p/2018/10/20</guid>
             <pubDate>Sat, 20 Oct 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Waiting for a drink. Waiting at the airport. Waiting waiting waiting.]]></title>
-            <link>http://localhost:3000/p/2018/10/17</link>
-            <guid>http://localhost:3000/p/2018/10/17</guid>
+            <link>http://localhost:3000//p/2018/10/17</link>
+            <guid>http://localhost:3000//p/2018/10/17</guid>
             <pubDate>Wed, 17 Oct 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Ghosts in the walls of an old house in Portland.]]></title>
-            <link>http://localhost:3000/p/2018/09/08</link>
-            <guid>http://localhost:3000/p/2018/09/08</guid>
+            <link>http://localhost:3000//p/2018/09/08</link>
+            <guid>http://localhost:3000//p/2018/09/08</guid>
             <pubDate>Sat, 08 Sep 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Sunday sunset train to Portland. Wednesday sunrise train to Seattle. Notes and scribbles. Painted sunset over Tacoma. Shadowy figures.]]></title>
-            <link>http://localhost:3000/p/2018/08/21</link>
-            <guid>http://localhost:3000/p/2018/08/21</guid>
+            <link>http://localhost:3000//p/2018/08/21</link>
+            <guid>http://localhost:3000//p/2018/08/21</guid>
             <pubDate>Tue, 21 Aug 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Wednesday morning commute. Bright, sunny, warm, and humid.]]></title>
-            <link>http://localhost:3000/p/2018/08/09</link>
-            <guid>http://localhost:3000/p/2018/08/09</guid>
+            <link>http://localhost:3000//p/2018/08/09</link>
+            <guid>http://localhost:3000//p/2018/08/09</guid>
             <pubDate>Thu, 09 Aug 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Avocados in space over a no-tell motel.]]></title>
-            <link>http://localhost:3000/p/2018/08/01</link>
-            <guid>http://localhost:3000/p/2018/08/01</guid>
+            <link>http://localhost:3000//p/2018/08/01</link>
+            <guid>http://localhost:3000//p/2018/08/01</guid>
             <pubDate>Wed, 01 Aug 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Poppies and polka-dots.]]></title>
-            <link>http://localhost:3000/p/2018/07/15</link>
-            <guid>http://localhost:3000/p/2018/07/15</guid>
+            <link>http://localhost:3000//p/2018/07/15</link>
+            <guid>http://localhost:3000//p/2018/07/15</guid>
             <pubDate>Sun, 15 Jul 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[Triple process portrait with orange poppies.]]></title>
-            <link>http://localhost:3000/p/2018/07/08</link>
-            <guid>http://localhost:3000/p/2018/07/08</guid>
+            <link>http://localhost:3000//p/2018/07/08</link>
+            <guid>http://localhost:3000//p/2018/07/08</guid>
             <pubDate>Sun, 08 Jul 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
         <item>
             <title><![CDATA[For today's active man or woman]]></title>
-            <link>http://localhost:3000/p/2018/06/24</link>
-            <guid>http://localhost:3000/p/2018/06/24</guid>
+            <link>http://localhost:3000//p/2018/06/24</link>
+            <guid>http://localhost:3000//p/2018/06/24</guid>
             <pubDate>Sun, 24 Jun 2018 00:00:00 GMT</pubDate>
             <author>mb@abouthalf.com (Michael Barrett)</author>
         </item>
