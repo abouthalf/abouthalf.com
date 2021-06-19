@@ -1,27 +1,6 @@
-import { useEffect, useState, useRef } from "react";
 import Image from 'next/image'
 import slug from "slug";
 import PostHeader from "../PostHeader";
-
-import pixel from "../../lib/pixel";
-
-const ioConfig = {
-    rootMargin: '0px 0px 256px 0px',
-    threshold: 0.01,
-};
-const lazySrcAttr = "data-lazy-src";
-
-let intersectionObserver;
-
-const getIntersectionObserver = (onIntersection) => {
-    // create interaction observer
-    if (intersectionObserver) return intersectionObserver;
-    intersectionObserver = new IntersectionObserver(
-        onIntersection,
-        ioConfig
-    );
-    return intersectionObserver;
-}
 
 const MegaGram = ({
     index,
@@ -39,9 +18,6 @@ const MegaGram = ({
 
     // get reverse array
     const images = index.slice(0).reverse();
-
-    // create local path
-
 
     return (
         <section id={hash} className="gram">
@@ -70,7 +46,6 @@ const MegaGram = ({
                 {images.map((img, i) => {
                     const src = `${path}${img}?webp`;
                     return <Box src={src} alt={`${title} ${i++} / ${images.length}`} />;
-                    // return <LazyImage key={slug(src + hash)} src={src} />
                 })}
             </div>
         </section>
@@ -100,54 +75,5 @@ const Box = ({ src, alt }) => (<div className="box">
         height: 33.33%;
     }
 `}</style>
-    <Image className="img" src={src} width="900" height="900" alt={alt} placeholder="empty" />
+    <Image className="img" src={src} width="900" height="900" alt={alt} placeholder="empty" quality="50" />
 </div>);
-
-const LazyImage = ({ src }) => {
-    const ref = useRef();
-    // const [source, setSource] = useState(src);
-
-    // polyfill lazy loading for Safari
-    useEffect(() => {
-        // if lazy loading supported, use it
-        if ('loading' in HTMLImageElement.prototype) return;
-        // define onIntersection handler
-        function onIntersection(entries, observer) {
-            entries.forEach(entry => {
-                if (entry.intersectionRatio === 0) {
-                    return;
-                }
-                // If the item is visible now, load it and stop watching it
-                const image = entry.target;
-                observer.unobserve(image);
-                // load image
-                image.src = image.getAttribute(lazySrcAttr);
-            })
-        };
-
-        // observer current dom element, reset src to pre-load
-        if (ref?.current) {
-            const io = getIntersectionObserver(onIntersection);
-            io.observe(ref.current)
-            ref.current.src = pixel;
-        }
-    }, []);
-
-    return (<>
-        <style jsx>{`
-            img {
-                width: 33.33%;
-                height: 33.33%;
-                display: block;
-                will-change: contents;
-            }
-        `}</style>
-        <img
-            ref={ref}
-            width="900"
-            height="900"
-            src={src}
-            loading="lazy"
-            data-lazy-src={src}
-        /></>);
-}
