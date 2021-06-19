@@ -11,9 +11,105 @@
     },
     "items": [
         {
-            "id": "http://localhost:3000/p/2020/05/09",
+            "id": "http://localhost:3000//p/2021/06/18",
+            "content_html": "Springtime walks with the pup present poppies and flocks of flamingos\n",
+            "url": "http://localhost:3000//p/2021/06/18",
+            "title": "Flamingo Poppies",
+            "summary": "Springtime walks with the pup present poppies and flocks of flamingos\n",
+            "date_modified": "2021-06-18T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2021/05/12",
+            "content_html": "Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells\n",
+            "url": "http://localhost:3000//p/2021/05/12",
+            "title": "Lilac and Lavendar",
+            "summary": "Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells\n",
+            "date_modified": "2021-05-12T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2021/04/04",
+            "content_html": "Buoyed by spring flowers.\n \n",
+            "url": "http://localhost:3000//p/2021/04/04",
+            "title": "Buoy",
+            "summary": "Buoyed by spring flowers.\n \n",
+            "date_modified": "2021-04-04T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2021/03/04",
+            "content_html": "A portrait study overlaid with images of the Oregon coast\n\n",
+            "url": "http://localhost:3000//p/2021/03/04",
+            "title": "Coastal Weather",
+            "summary": "A portrait study overlaid with images of the Oregon coast\n\n",
+            "date_modified": "2021-03-04T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2021/02/01",
+            "content_html": "Wintertime thinking about springtime dandelions\n\n",
+            "url": "http://localhost:3000//p/2021/02/01",
+            "title": "Dandelions",
+            "summary": "Wintertime thinking about springtime dandelions\n\n",
+            "date_modified": "2021-02-01T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2021/01/18",
+            "content_html": "A portrait study interlaced with floral snapshots\n",
+            "url": "http://localhost:3000//p/2021/01/18",
+            "title": "Harlequin",
+            "summary": "A portrait study interlaced with floral snapshots\n",
+            "date_modified": "2021-01-18T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2020/06/21",
+            "content_html": "One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12\"x 18\" acrylic and inkjet on canvas\n\n",
+            "url": "http://localhost:3000//p/2020/06/21",
+            "title": "Street Meat",
+            "summary": "One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12\"x 18\" acrylic and inkjet on canvas\n\n",
+            "date_modified": "2020-06-21T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2020/05/10",
+            "content_html": "A tomato-red turtleneck sweater\n",
+            "url": "http://localhost:3000//p/2020/05/10",
+            "title": "Denied Portrait",
+            "summary": "A tomato-red turtleneck sweater\n",
+            "date_modified": "2020-05-10T00:00:00.000Z",
+            "author": {
+                "name": "Michael Barrett",
+                "url": "https://abouthalf.com/about"
+            }
+        },
+        {
+            "id": "http://localhost:3000//p/2020/05/09",
             "content_html": "It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies\n",
-            "url": "http://localhost:3000/p/2020/05/09",
+            "url": "http://localhost:3000//p/2020/05/09",
             "title": "Too early for tomatoes",
             "summary": "It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies\n",
             "date_modified": "2020-05-09T00:00:00.000Z",
@@ -23,9 +119,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/04/05",
+            "id": "http://localhost:3000//p/2020/04/05",
             "content_html": "15 new paintings - 12\" by 12\" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.\n",
-            "url": "http://localhost:3000/p/2020/04/05",
+            "url": "http://localhost:3000//p/2020/04/05",
             "title": "15 new paintings",
             "summary": "15 new paintings - 12\" by 12\" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.\n",
             "date_modified": "2020-04-05T00:00:00.000Z",
@@ -35,9 +131,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/04/04",
+            "id": "http://localhost:3000//p/2020/04/04",
             "content_html": "Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.\n",
-            "url": "http://localhost:3000/p/2020/04/04",
+            "url": "http://localhost:3000//p/2020/04/04",
             "title": "Spring Forward",
             "summary": "Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.\n",
             "date_modified": "2020-04-04T00:00:00.000Z",
@@ -47,9 +143,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/03/29",
+            "id": "http://localhost:3000//p/2020/03/29",
             "content_html": "Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO\n",
-            "url": "http://localhost:3000/p/2020/03/29",
+            "url": "http://localhost:3000//p/2020/03/29",
             "title": "When life gives you lemons make concrete 🍋",
             "summary": "Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO\n",
             "date_modified": "2020-03-29T00:00:00.000Z",
@@ -59,9 +155,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/03/01",
+            "id": "http://localhost:3000//p/2020/03/01",
             "content_html": "A portrait study from a Uniqlo ad which seems to be remembering it's beginnings\n",
-            "url": "http://localhost:3000/p/2020/03/01",
+            "url": "http://localhost:3000//p/2020/03/01",
             "title": "Recapitulated with squares",
             "summary": "A portrait study from a Uniqlo ad which seems to be remembering it's beginnings\n",
             "date_modified": "2020-03-01T00:00:00.000Z",
@@ -71,9 +167,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/02/24",
+            "id": "http://localhost:3000//p/2020/02/24",
             "content_html": "A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols\t\n",
-            "url": "http://localhost:3000/p/2020/02/24",
+            "url": "http://localhost:3000//p/2020/02/24",
             "title": "Bundle up, it’s raining",
             "summary": "A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols\t\n",
             "date_modified": "2020-02-24T00:00:00.000Z",
@@ -83,9 +179,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/02/23",
+            "id": "http://localhost:3000//p/2020/02/23",
             "content_html": "A portrait study with a tropical snapshot thought balloon\n",
-            "url": "http://localhost:3000/p/2020/02/23",
+            "url": "http://localhost:3000//p/2020/02/23",
             "title": "Cold front followed by tropical thought balloons.",
             "summary": "A portrait study with a tropical snapshot thought balloon\n",
             "date_modified": "2020-02-23T00:00:00.000Z",
@@ -95,9 +191,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/02/01",
+            "id": "http://localhost:3000//p/2020/02/01",
             "content_html": "Dashboard camera, graphic clouds, and a diminished portrait study.\n",
-            "url": "http://localhost:3000/p/2020/02/01",
+            "url": "http://localhost:3000//p/2020/02/01",
             "title": "Finally some sun in Portland",
             "summary": "Dashboard camera, graphic clouds, and a diminished portrait study.\n",
             "date_modified": "2020-02-01T00:00:00.000Z",
@@ -107,9 +203,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2020/01/20",
+            "id": "http://localhost:3000//p/2020/01/20",
             "content_html": "A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. \n",
-            "url": "http://localhost:3000/p/2020/01/20",
+            "url": "http://localhost:3000//p/2020/01/20",
             "title": "Overlapping idealizations",
             "summary": "A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. \n",
             "date_modified": "2020-01-20T00:00:00.000Z",
@@ -119,9 +215,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/12/14",
+            "id": "http://localhost:3000//p/2019/12/14",
             "content_html": "A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves\n\n",
-            "url": "http://localhost:3000/p/2019/12/14",
+            "url": "http://localhost:3000//p/2019/12/14",
             "title": "Sweater weather. Portrait study from a Uniqlo advertisement.",
             "summary": "A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves\n\n",
             "date_modified": "2019-12-14T00:00:00.000Z",
@@ -131,9 +227,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/12/08",
+            "id": "http://localhost:3000//p/2019/12/08",
             "content_html": "A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.\n",
-            "url": "http://localhost:3000/p/2019/12/08",
+            "url": "http://localhost:3000//p/2019/12/08",
             "title": "Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.",
             "summary": "A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.\n",
             "date_modified": "2019-12-08T00:00:00.000Z",
@@ -143,9 +239,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/12/07",
+            "id": "http://localhost:3000//p/2019/12/07",
             "content_html": "Do you ever really look around at night? It's weird.\n",
-            "url": "http://localhost:3000/p/2019/12/07",
+            "url": "http://localhost:3000//p/2019/12/07",
             "title": "Late night, walking the dog",
             "summary": "Do you ever really look around at night? It's weird.\n",
             "date_modified": "2019-12-07T00:00:00.000Z",
@@ -155,9 +251,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/11/14",
+            "id": "http://localhost:3000//p/2019/11/14",
             "content_html": "",
-            "url": "http://localhost:3000/p/2019/11/14",
+            "url": "http://localhost:3000//p/2019/11/14",
             "title": "Trains, trees, windswept",
             "date_modified": "2019-11-14T00:00:00.000Z",
             "author": {
@@ -166,9 +262,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/11/10",
+            "id": "http://localhost:3000//p/2019/11/10",
             "content_html": "",
-            "url": "http://localhost:3000/p/2019/11/10",
+            "url": "http://localhost:3000//p/2019/11/10",
             "title": "Eggs over Brighton",
             "date_modified": "2019-11-10T00:00:00.000Z",
             "author": {
@@ -177,9 +273,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2019/01/04",
+            "id": "http://localhost:3000//p/2019/01/04",
             "content_html": "",
-            "url": "http://localhost:3000/p/2019/01/04",
+            "url": "http://localhost:3000//p/2019/01/04",
             "title": "Boy looking over shoulder",
             "date_modified": "2019-01-04T00:00:00.000Z",
             "author": {
@@ -188,9 +284,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/10/28",
+            "id": "http://localhost:3000//p/2018/10/28",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/10/28",
+            "url": "http://localhost:3000//p/2018/10/28",
             "title": "Portrait study with eggs",
             "date_modified": "2018-10-28T00:00:00.000Z",
             "author": {
@@ -199,9 +295,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/10/20",
+            "id": "http://localhost:3000//p/2018/10/20",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/10/20",
+            "url": "http://localhost:3000//p/2018/10/20",
             "title": "Autumn landed with a thunk",
             "date_modified": "2018-10-20T00:00:00.000Z",
             "author": {
@@ -210,9 +306,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/10/17",
+            "id": "http://localhost:3000//p/2018/10/17",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/10/17",
+            "url": "http://localhost:3000//p/2018/10/17",
             "title": "Waiting for a drink. Waiting at the airport. Waiting waiting waiting.",
             "date_modified": "2018-10-17T00:00:00.000Z",
             "author": {
@@ -221,9 +317,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/09/08",
+            "id": "http://localhost:3000//p/2018/09/08",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/09/08",
+            "url": "http://localhost:3000//p/2018/09/08",
             "title": "Ghosts in the walls of an old house in Portland.",
             "date_modified": "2018-09-08T00:00:00.000Z",
             "author": {
@@ -232,9 +328,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/08/21",
+            "id": "http://localhost:3000//p/2018/08/21",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/08/21",
+            "url": "http://localhost:3000//p/2018/08/21",
             "title": "Sunday sunset train to Portland. Wednesday sunrise train to Seattle. Notes and scribbles. Painted sunset over Tacoma. Shadowy figures.",
             "date_modified": "2018-08-21T00:00:00.000Z",
             "author": {
@@ -243,9 +339,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/08/09",
+            "id": "http://localhost:3000//p/2018/08/09",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/08/09",
+            "url": "http://localhost:3000//p/2018/08/09",
             "title": "Wednesday morning commute. Bright, sunny, warm, and humid.",
             "date_modified": "2018-08-09T00:00:00.000Z",
             "author": {
@@ -254,9 +350,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/08/01",
+            "id": "http://localhost:3000//p/2018/08/01",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/08/01",
+            "url": "http://localhost:3000//p/2018/08/01",
             "title": "Avocados in space over a no-tell motel.",
             "date_modified": "2018-08-01T00:00:00.000Z",
             "author": {
@@ -265,9 +361,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/07/15",
+            "id": "http://localhost:3000//p/2018/07/15",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/07/15",
+            "url": "http://localhost:3000//p/2018/07/15",
             "title": "Poppies and polka-dots.",
             "date_modified": "2018-07-15T00:00:00.000Z",
             "author": {
@@ -276,9 +372,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/07/08",
+            "id": "http://localhost:3000//p/2018/07/08",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/07/08",
+            "url": "http://localhost:3000//p/2018/07/08",
             "title": "Triple process portrait with orange poppies.",
             "date_modified": "2018-07-08T00:00:00.000Z",
             "author": {
@@ -287,9 +383,9 @@
             }
         },
         {
-            "id": "http://localhost:3000/p/2018/06/24",
+            "id": "http://localhost:3000//p/2018/06/24",
             "content_html": "",
-            "url": "http://localhost:3000/p/2018/06/24",
+            "url": "http://localhost:3000//p/2018/06/24",
             "title": "For today's active man or woman",
             "date_modified": "2018-06-24T00:00:00.000Z",
             "author": {

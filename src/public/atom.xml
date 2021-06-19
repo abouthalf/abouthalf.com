@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://abouthalf.com</id>
     <title>Michael Barrett : Abouthalf.com</title>
-    <updated>2020-05-10T00:48:01.660Z</updated>
+    <updated>2021-06-19T20:03:04.333Z</updated>
     <generator>Michael's gnarled hands and brow sweat</generator>
     <author>
         <name>Michael Barrett</name>
@@ -14,11 +14,139 @@
     <subtitle>This site is like a sketchbook that keeps going and going. This site pulls snapshots, found images, and digital paintings into a long streaming grid of pictures.</subtitle>
     <logo>https://abouthalf.com/thumbnail.jpg</logo>
     <icon>https://abouthalf.com/favicon.ico</icon>
-    <rights>All rights reserverd 2020 - Michael Barrett</rights>
+    <rights>All rights reserverd 2021 - Michael Barrett</rights>
+    <entry>
+        <title type="html"><![CDATA[Flamingo Poppies]]></title>
+        <id>http://localhost:3000//p/2021/06/18</id>
+        <link href="http://localhost:3000//p/2021/06/18"/>
+        <updated>2021-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Springtime walks with the pup present poppies and flocks of flamingos
+]]></summary>
+        <content type="html"><![CDATA[Springtime walks with the pup present poppies and flocks of flamingos
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lilac and Lavendar]]></title>
+        <id>http://localhost:3000//p/2021/05/12</id>
+        <link href="http://localhost:3000//p/2021/05/12"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells
+]]></summary>
+        <content type="html"><![CDATA[Lilac, lavender, dandelions, and maples. Spring growth, colors, sights, and smells
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buoy]]></title>
+        <id>http://localhost:3000//p/2021/04/04</id>
+        <link href="http://localhost:3000//p/2021/04/04"/>
+        <updated>2021-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Buoyed by spring flowers.
+ 
+]]></summary>
+        <content type="html"><![CDATA[Buoyed by spring flowers.
+ 
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coastal Weather]]></title>
+        <id>http://localhost:3000//p/2021/03/04</id>
+        <link href="http://localhost:3000//p/2021/03/04"/>
+        <updated>2021-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A portrait study overlaid with images of the Oregon coast
+
+]]></summary>
+        <content type="html"><![CDATA[A portrait study overlaid with images of the Oregon coast
+
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dandelions]]></title>
+        <id>http://localhost:3000//p/2021/02/01</id>
+        <link href="http://localhost:3000//p/2021/02/01"/>
+        <updated>2021-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wintertime thinking about springtime dandelions
+
+]]></summary>
+        <content type="html"><![CDATA[Wintertime thinking about springtime dandelions
+
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Harlequin]]></title>
+        <id>http://localhost:3000//p/2021/01/18</id>
+        <link href="http://localhost:3000//p/2021/01/18"/>
+        <updated>2021-01-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A portrait study interlaced with floral snapshots
+]]></summary>
+        <content type="html"><![CDATA[A portrait study interlaced with floral snapshots
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Street Meat]]></title>
+        <id>http://localhost:3000//p/2020/06/21</id>
+        <link href="http://localhost:3000//p/2020/06/21"/>
+        <updated>2020-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12"x 18" acrylic and inkjet on canvas
+
+]]></summary>
+        <content type="html"><![CDATA[One and three steaks. While walking the dog I snapped a photo of misplaced groceries. 12"x 18" acrylic and inkjet on canvas
+
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Denied Portrait]]></title>
+        <id>http://localhost:3000//p/2020/05/10</id>
+        <link href="http://localhost:3000//p/2020/05/10"/>
+        <updated>2020-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A tomato-red turtleneck sweater
+]]></summary>
+        <content type="html"><![CDATA[A tomato-red turtleneck sweater
+]]></content>
+        <author>
+            <name>Michael Barrett</name>
+            <email>mb@abouthalf.com</email>
+            <uri>https://abouthalf.com/about</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Too early for tomatoes]]></title>
-        <id>http://localhost:3000/p/2020/05/09</id>
-        <link href="http://localhost:3000/p/2020/05/09"/>
+        <id>http://localhost:3000//p/2020/05/09</id>
+        <link href="http://localhost:3000//p/2020/05/09"/>
         <updated>2020-05-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It’s too early for tomatoes, and too late for turtlenecks. Portrait study from a Uniqlo ad, with a sketch of a tomato and a snapshot of poppies
 ]]></summary>
@@ -32,8 +160,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[15 new paintings]]></title>
-        <id>http://localhost:3000/p/2020/04/05</id>
-        <link href="http://localhost:3000/p/2020/04/05"/>
+        <id>http://localhost:3000//p/2020/04/05</id>
+        <link href="http://localhost:3000//p/2020/04/05"/>
         <updated>2020-04-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[15 new paintings - 12" by 12" monotypes on canvas mounted to panel. Ink-jet prints layered with paint and pencil.
 ]]></summary>
@@ -47,8 +175,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Forward]]></title>
-        <id>http://localhost:3000/p/2020/04/04</id>
-        <link href="http://localhost:3000/p/2020/04/04"/>
+        <id>http://localhost:3000//p/2020/04/04</id>
+        <link href="http://localhost:3000//p/2020/04/04"/>
         <updated>2020-04-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Spring Forward into a new shirt under the cherry blossoms. Portrait study from a Uniqlo ad. cherry trees in St. Johns.
 ]]></summary>
@@ -62,8 +190,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[When life gives you lemons make concrete 🍋]]></title>
-        <id>http://localhost:3000/p/2020/03/29</id>
-        <link href="http://localhost:3000/p/2020/03/29"/>
+        <id>http://localhost:3000//p/2020/03/29</id>
+        <link href="http://localhost:3000//p/2020/03/29"/>
         <updated>2020-03-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Wandering around St Johns taking photos of textures to blend into digital painting. I put some lemons on top for freshness. XOXO
 ]]></summary>
@@ -77,8 +205,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Recapitulated with squares]]></title>
-        <id>http://localhost:3000/p/2020/03/01</id>
-        <link href="http://localhost:3000/p/2020/03/01"/>
+        <id>http://localhost:3000//p/2020/03/01</id>
+        <link href="http://localhost:3000//p/2020/03/01"/>
         <updated>2020-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A portrait study from a Uniqlo ad which seems to be remembering it's beginnings
 ]]></summary>
@@ -92,8 +220,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Bundle up, it’s raining]]></title>
-        <id>http://localhost:3000/p/2020/02/24</id>
-        <link href="http://localhost:3000/p/2020/02/24"/>
+        <id>http://localhost:3000//p/2020/02/24</id>
+        <link href="http://localhost:3000//p/2020/02/24"/>
         <updated>2020-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A portrait study from a Uniqlo ad with graphic clouds and ancient meteorological symbols	
 ]]></summary>
@@ -107,8 +235,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Cold front followed by tropical thought balloons.]]></title>
-        <id>http://localhost:3000/p/2020/02/23</id>
-        <link href="http://localhost:3000/p/2020/02/23"/>
+        <id>http://localhost:3000//p/2020/02/23</id>
+        <link href="http://localhost:3000//p/2020/02/23"/>
         <updated>2020-02-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A portrait study with a tropical snapshot thought balloon
 ]]></summary>
@@ -122,8 +250,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Finally some sun in Portland]]></title>
-        <id>http://localhost:3000/p/2020/02/01</id>
-        <link href="http://localhost:3000/p/2020/02/01"/>
+        <id>http://localhost:3000//p/2020/02/01</id>
+        <link href="http://localhost:3000//p/2020/02/01"/>
         <updated>2020-02-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dashboard camera, graphic clouds, and a diminished portrait study.
 ]]></summary>
@@ -137,8 +265,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Overlapping idealizations]]></title>
-        <id>http://localhost:3000/p/2020/01/20</id>
-        <link href="http://localhost:3000/p/2020/01/20"/>
+        <id>http://localhost:3000//p/2020/01/20</id>
+        <link href="http://localhost:3000//p/2020/01/20"/>
         <updated>2020-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A portrait study from a Uniqlo ad paired with an architectural rendering of the deceased Scottish Rite temple in Tacoma. 
 ]]></summary>
@@ -152,8 +280,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Sweater weather. Portrait study from a Uniqlo advertisement.]]></title>
-        <id>http://localhost:3000/p/2019/12/14</id>
-        <link href="http://localhost:3000/p/2019/12/14"/>
+        <id>http://localhost:3000//p/2019/12/14</id>
+        <link href="http://localhost:3000//p/2019/12/14"/>
         <updated>2019-12-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A portrait study from a Uniqlo ad with a pattern built from found photos of autumn leaves
 
@@ -169,8 +297,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Recent work. Three printer paintings. Inkjet on Canvas with Acrylic, mounted on birch panel.]]></title>
-        <id>http://localhost:3000/p/2019/12/08</id>
-        <link href="http://localhost:3000/p/2019/12/08"/>
+        <id>http://localhost:3000//p/2019/12/08</id>
+        <link href="http://localhost:3000//p/2019/12/08"/>
         <updated>2019-12-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A digital painting, printed on canvas, mounted to panel, and painted. Printer errors are embraced.
 ]]></summary>
@@ -184,8 +312,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Late night, walking the dog]]></title>
-        <id>http://localhost:3000/p/2019/12/07</id>
-        <link href="http://localhost:3000/p/2019/12/07"/>
+        <id>http://localhost:3000//p/2019/12/07</id>
+        <link href="http://localhost:3000//p/2019/12/07"/>
         <updated>2019-12-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Do you ever really look around at night? It's weird.
 ]]></summary>
@@ -199,8 +327,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Trains, trees, windswept]]></title>
-        <id>http://localhost:3000/p/2019/11/14</id>
-        <link href="http://localhost:3000/p/2019/11/14"/>
+        <id>http://localhost:3000//p/2019/11/14</id>
+        <link href="http://localhost:3000//p/2019/11/14"/>
         <updated>2019-11-14T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -210,8 +338,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Eggs over Brighton]]></title>
-        <id>http://localhost:3000/p/2019/11/10</id>
-        <link href="http://localhost:3000/p/2019/11/10"/>
+        <id>http://localhost:3000//p/2019/11/10</id>
+        <link href="http://localhost:3000//p/2019/11/10"/>
         <updated>2019-11-10T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -221,8 +349,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Boy looking over shoulder]]></title>
-        <id>http://localhost:3000/p/2019/01/04</id>
-        <link href="http://localhost:3000/p/2019/01/04"/>
+        <id>http://localhost:3000//p/2019/01/04</id>
+        <link href="http://localhost:3000//p/2019/01/04"/>
         <updated>2019-01-04T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -232,8 +360,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Portrait study with eggs]]></title>
-        <id>http://localhost:3000/p/2018/10/28</id>
-        <link href="http://localhost:3000/p/2018/10/28"/>
+        <id>http://localhost:3000//p/2018/10/28</id>
+        <link href="http://localhost:3000//p/2018/10/28"/>
         <updated>2018-10-28T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -243,8 +371,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Autumn landed with a thunk]]></title>
-        <id>http://localhost:3000/p/2018/10/20</id>
-        <link href="http://localhost:3000/p/2018/10/20"/>
+        <id>http://localhost:3000//p/2018/10/20</id>
+        <link href="http://localhost:3000//p/2018/10/20"/>
         <updated>2018-10-20T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -254,8 +382,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Waiting for a drink. Waiting at the airport. Waiting waiting waiting.]]></title>
-        <id>http://localhost:3000/p/2018/10/17</id>
-        <link href="http://localhost:3000/p/2018/10/17"/>
+        <id>http://localhost:3000//p/2018/10/17</id>
+        <link href="http://localhost:3000//p/2018/10/17"/>
         <updated>2018-10-17T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -265,8 +393,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Ghosts in the walls of an old house in Portland.]]></title>
-        <id>http://localhost:3000/p/2018/09/08</id>
-        <link href="http://localhost:3000/p/2018/09/08"/>
+        <id>http://localhost:3000//p/2018/09/08</id>
+        <link href="http://localhost:3000//p/2018/09/08"/>
         <updated>2018-09-08T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -276,8 +404,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Sunday sunset train to Portland. Wednesday sunrise train to Seattle. Notes and scribbles. Painted sunset over Tacoma. Shadowy figures.]]></title>
-        <id>http://localhost:3000/p/2018/08/21</id>
-        <link href="http://localhost:3000/p/2018/08/21"/>
+        <id>http://localhost:3000//p/2018/08/21</id>
+        <link href="http://localhost:3000//p/2018/08/21"/>
         <updated>2018-08-21T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -287,8 +415,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Wednesday morning commute. Bright, sunny, warm, and humid.]]></title>
-        <id>http://localhost:3000/p/2018/08/09</id>
-        <link href="http://localhost:3000/p/2018/08/09"/>
+        <id>http://localhost:3000//p/2018/08/09</id>
+        <link href="http://localhost:3000//p/2018/08/09"/>
         <updated>2018-08-09T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -298,8 +426,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Avocados in space over a no-tell motel.]]></title>
-        <id>http://localhost:3000/p/2018/08/01</id>
-        <link href="http://localhost:3000/p/2018/08/01"/>
+        <id>http://localhost:3000//p/2018/08/01</id>
+        <link href="http://localhost:3000//p/2018/08/01"/>
         <updated>2018-08-01T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -309,8 +437,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Poppies and polka-dots.]]></title>
-        <id>http://localhost:3000/p/2018/07/15</id>
-        <link href="http://localhost:3000/p/2018/07/15"/>
+        <id>http://localhost:3000//p/2018/07/15</id>
+        <link href="http://localhost:3000//p/2018/07/15"/>
         <updated>2018-07-15T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -320,8 +448,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Triple process portrait with orange poppies.]]></title>
-        <id>http://localhost:3000/p/2018/07/08</id>
-        <link href="http://localhost:3000/p/2018/07/08"/>
+        <id>http://localhost:3000//p/2018/07/08</id>
+        <link href="http://localhost:3000//p/2018/07/08"/>
         <updated>2018-07-08T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>
@@ -331,8 +459,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[For today's active man or woman]]></title>
-        <id>http://localhost:3000/p/2018/06/24</id>
-        <link href="http://localhost:3000/p/2018/06/24"/>
+        <id>http://localhost:3000//p/2018/06/24</id>
+        <link href="http://localhost:3000//p/2018/06/24"/>
         <updated>2018-06-24T00:00:00.000Z</updated>
         <author>
             <name>Michael Barrett</name>

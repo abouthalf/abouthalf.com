@@ -8,6 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@mdx-js/loader": "^1.5.3",
+        "@netlify/plugin-nextjs": "^3.4.2",
         "@next/mdx": "^9.1.6",
         "airtable": "^0.8.1",
         "dotenv": "^8.2.0",
