@@ -20,5 +20,6 @@ module.exports = withMDX(
             URL: process.env.URL || "http://localhost:3000",
             AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
         },
+        target: "serverless"
     }),
 );
