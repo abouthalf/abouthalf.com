@@ -73,14 +73,14 @@ export async function getStaticProps({ params }) {
 
     const idxPath = path.join(
         process.cwd(),
-        `src/public/images/${year}/${month}/${day}/index.json`,
+        `public/images/${year}/${month}/${day}/index.json`,
     );
     const idxContents = fs.readFileSync(idxPath);
     const idx = JSON.parse(idxContents);
 
     let thumbPath = path.join(
         process.cwd(),
-        `src/public/images/${year}/${month}/${day}/thumbnail.jpg`,
+        `public/images/${year}/${month}/${day}/thumbnail.jpg`,
     );
     let thumbnail = "";
     if (fs.existsSync(thumbPath)) {

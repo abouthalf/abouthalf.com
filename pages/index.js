@@ -84,7 +84,7 @@ export async function getStaticProps() {
         const [year, month, day] = date.split("-");
         const idxPath = path.join(
             process.cwd(),
-            `src/public/images/${year}/${month}/${day}/index.json`,
+            `public/images/${year}/${month}/${day}/index.json`,
         );
         const idxContents = fs.readFileSync(idxPath);
         const index = JSON.parse(idxContents);

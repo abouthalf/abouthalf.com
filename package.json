@@ -25,9 +25,9 @@
     },
     "scripts": {
         "dev": "next src",
-        "build": "next build src",
-        "start": "next start src",
-        "feed": "node ./src/build/feed.js",
+        "build": "npm run feed && next build",
+        "start": "next start",
+        "feed": "node ./build/feed.js",
         "telemetry": "next telemetry disable",
         "export": "yarn run feed && next telemetry disable && next build src && next export src -o published"
     }
