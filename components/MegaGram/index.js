@@ -50,7 +50,8 @@ const MegaGram = ({
             <div className="grid">
                 {images.map((img, i) => {
                     const src = `${path}${img}?webp`;
-                    return <Box key={`${hash}-${i}`} src={src} alt={`${title} ${i++} / ${images.length}`} />;
+                    const id = slug(`${title} ${i}`);
+                    return <Box key={`${hash}-${i}`} id={id} src={src} alt={`${title} ${i++} / ${images.length}`} />;
                 })}
             </div>
         </section>
@@ -59,17 +60,22 @@ const MegaGram = ({
 
 export default MegaGram;
 
-const Box = ({ src, alt }) => {
+const Box = ({ id, src, alt }) => {
     const ref = useRef();
     const [rotateX, setRotateX] = useState(0);
     const [rotateY, setRotateY] = useState(0);
     const [translateZ, setTranslateZ] = useState(0);
 
     useEffect(() => {
-        if (!ref?.current) return;
-        const box = ref.current;
-        const rect = box.getBoundingClientRect();
-        // console.log(rect);
+        if (window?.localStorage) {
+            const transforms = localStorage.getItem(id);
+            if (transforms) {
+                const [rotateX, rotateY, translateZ] = transforms.split(",");
+                setRotateX(rotateX);
+                setRotateY(rotateY);
+                setTranslateZ(translateZ);
+            }
+        }
     }, [])
 
     const handleClick = e => {
@@ -86,9 +92,24 @@ const Box = ({ src, alt }) => {
         setRotateX(rotateX);
         setRotateY(rotateY);
         setTranslateZ(-50);
+
+        if (window?.localStorage) {
+            localStorage.setItem(id, [rotateX, rotateY, -50].join(","));
+        }
     }
 
-    return (<div ref={ref} className="box" onClick={handleClick} style={{ transform: `perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(${translateZ}px)` }}>
+    const handleTouchStart = e => {
+        const touch = e.touches[0];
+        if (touch) {
+            handleClick(touch);
+        }
+    }
+
+    return (<div ref={ref}
+        className="box"
+        onClick={handleClick}
+        onTouchStart={handleTouchStart}
+        style={{ transform: `perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(${translateZ}px)` }}>
         <style jsx>{`
         .box {
             width: calc(100vw / 3);
@@ -101,7 +122,7 @@ const Box = ({ src, alt }) => {
             display: flex;
             flex-direction: row;
 
-            transition: all 250ms ease-in-out;
+            transition: all 200ms ease-in-out;
             
             transform-style: preserve-3d;
         }
