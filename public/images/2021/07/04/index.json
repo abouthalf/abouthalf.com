@@ -1,0 +1,9 @@
+{
+    "portrait": "portrait.jpg",
+    "mask": [
+        "mask.svg",
+        "mask.png",
+        "mask.webp"
+    ],
+    "scale": 60
+}

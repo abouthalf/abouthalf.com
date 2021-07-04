@@ -12,7 +12,7 @@ const DeniedPortrait = ({
     day,
     path = "",
 }) => {
-    const { portrait, mask } = index;
+    const { portrait, mask, scale = 75 } = index;
 
     const allMasks = Array.isArray(mask) ? mask : [mask];
 
@@ -42,11 +42,11 @@ const DeniedPortrait = ({
                 }
 
                 .mask {
-                    width: 75%;
-                    height: 75%;
+                    width: ${scale}%;
+                    height: ${scale}%;
                     position: absolute;
-                    top: 12.5%;
-                    left: 12.5%;
+                    top: ${(100 - scale) / 2}%;
+                    left: ${(100 - scale) / 2}%;;
                     cursor: move;
                     user-select: none;
                     z-index: 2;
