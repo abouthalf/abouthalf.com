@@ -6,6 +6,7 @@ const PostHeader = ({ title, description, postUrl, date }) => {
             <style jsx>{`
                 :global(*:hover) > header {
                     opacity: 1;
+                    pointer-events: none;
                 }
                 header {
                     position: absolute;
